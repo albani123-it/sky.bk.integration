@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader" xmlns:ns2="http://creditinfo.com/CB5" xmlns:ns3="http://creditinfo.com/CB5/v5.53/SmartSearch">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:ServiceName>pfSmartSearchIndividual</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:ChannelID>DL</ns1:ChannelID>
+    <ns1:TransactionID>pfSmartSearchIndividual-20200122-1523</ns1:TransactionID>
+    <ns1:RqTimestamp>16/11/2018 10:02:00</ns1:RqTimestamp>
+  </ns1:ServiceHeader>
+  <ServiceBody xmlns="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <pfSmartSearchIndividualRq xmlns="http://creditinfo.com/CB5">
+      <TxnCode xmlns="http://creditinfo.com/CB5/v5.53/SmartSearch">pfSmartSearchIndividual</TxnCode>
+      <RqUID xmlns="http://creditinfo.com/CB5/v5.53/SmartSearch">pfSmartSearchIndividual-20200122-1523</RqUID>
+      <query xmlns="http://creditinfo.com/CB5/v5.53/SmartSearch">
+        <InquiryReason>ProvidingFacilities</InquiryReason>
+        <InquiryReasonText />
+        <Parameters>
+          <DateOfBirth>1982-03-12</DateOfBirth>
+          <FullName>Customer Name</FullName>
+          <IdNumbers>
+            <IdNumberPairIndividual>
+              <IdNumber>12353</IdNumber>
+              <IdNumberType>KTP</IdNumberType>
+            </IdNumberPairIndividual>
+          </IdNumbers>
+        </Parameters>
+      </query>
+    </pfSmartSearchIndividualRq>
+  </ServiceBody>
+</ns0:ServiceEnvelope>

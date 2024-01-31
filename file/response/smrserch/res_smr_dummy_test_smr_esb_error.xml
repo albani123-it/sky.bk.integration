@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>KOQXFGY2wOJvsUvD5--7mzjUjPA</ns1:TrackingID>
+    <ns1:ServiceName>pfSmartSearchIndividual</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfSmartSearchIndividual-AIPRE-202106092306506543831062442354</ns1:TransactionID>
+    <ns1:RsTimestamp>2021-06-09T23:41:45.311+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>1</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfSmartSearchIndividualRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfSmartSearchIndividual/01">
+      <ns2:RqUID />
+      <ns2:SmartSearchIndividualResult>
+        <ns2:IndividualRecords />
+        <ns2:NilReport>
+          <ns2:Records />
+          <ns2:Summary />
+        </ns2:NilReport>
+        <ns2:Parameters>
+          <ns2:IdNumbers />
+        </ns2:Parameters>
+        <ns2:PefindoId />
+      </ns2:SmartSearchIndividualResult>
+    </ns2:pfSmartSearchIndividualRs>
+  </ns1:ServiceBody>
+  <ns1:ServiceError xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope" xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceError">
+    <ns2:Error xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/Common">
+      <ns2:ErrorType>SYSTEM</ns2:ErrorType>
+      <ns2:ErrorCode>E803</ns2:ErrorCode>
+      <ns2:Timestamp>2021-06-09T23:41:45.299+07:00</ns2:Timestamp>
+      <ns2:ErrorMessage>Error occurred in ESB while sending request to Service Provider. MsgCode=BW-JAVA-100001, Msg=While executing [invoke] encountered [java.net.SocketTimeoutException] : [connect timed out at java.net.PlainSocketImpl.socketConnect(Native Method)]</ns2:ErrorMessage>
+      <ns2:ErrorContext>Job-10234642 Error in [CoreServices/BaseProcesses/Connectors/HTTPRqRs/HTTPRqRs03.process/HTTPRqIgnoreCert]
+While executing [invoke] encountered [java.net.SocketTimeoutException] : [connect timed out at java.net.PlainSocketImpl.socketConnect(Native Method)]
+	at com.tibco.plugin.java.JavaActivity.eval(Unknown Source)
+	at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+	at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+	at com.tibco.pe.core.Job.a(Unknown Source)
+	at com.tibco.pe.core.Job.k(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+</ns2:ErrorContext>
+    </ns2:Error>
+  </ns1:ServiceError>
+</ns0:ServiceEnvelope>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>K0a0f1RWnBbv2ULmUX-7m-BEr0U</ns1:TrackingID>
+    <ns1:ServiceName>pfSmartSearchIndividual</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfSmartSearchIndividual-AIPRE-20210104170126688368324112912</ns1:TransactionID>
+    <ns1:RsTimestamp>2021-01-04T17:03:26.747+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfSmartSearchIndividualRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfSmartSearchIndividual/01">
+      <ns2:RqUID>pfSmartSearchIndividual-AIPRE-20210104170126688368324112912</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:SmartSearchIndividualResult>
+        <ns2:IndividualRecords>
+          <ns2:SearchIndividualRecord>
+            <ns2:Address>JL. Soekarno No.28 KAB. PELALAWAN RIAU</ns2:Address>
+            <ns2:DateOfBirth>1976-07-01T00:00:00</ns2:DateOfBirth>
+            <ns2:FullName>Fitria Intan</ns2:FullName>
+            <ns2:KTP>1744341512710002</ns2:KTP>
+            <ns2:PefindoId>56317800</ns2:PefindoId>
+          </ns2:SearchIndividualRecord>
+        </ns2:IndividualRecords>
+        <ns2:NilReport>
+          <ns2:Records />
+          <ns2:Summary />
+        </ns2:NilReport>
+        <ns2:Parameters>
+          <ns2:DateOfBirth>1971-12-15T00:00:00</ns2:DateOfBirth>
+          <ns2:FullName>FITRIA INTAN</ns2:FullName>
+          <ns2:IdNumbers>
+            <ns2:IdNumberPairIndividual>
+              <ns2:IdNumber>1744341512710002</ns2:IdNumber>
+              <ns2:IdNumberType>KTP</ns2:IdNumberType>
+            </ns2:IdNumberPairIndividual>
+          </ns2:IdNumbers>
+        </ns2:Parameters>
+        <ns2:PefindoId>56317800</ns2:PefindoId>
+        <ns2:SearchRuleApplied>NationalID</ns2:SearchRuleApplied>
+        <ns2:Status>SubjectFound</ns2:Status>
+      </ns2:SmartSearchIndividualResult>
+    </ns2:pfSmartSearchIndividualRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

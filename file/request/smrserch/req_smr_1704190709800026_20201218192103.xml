@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:ServiceName>pfSmartSearchIndividual</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:ChannelID>DL</ns1:ChannelID>
+    <ns1:TransactionID>pfSmartSearchIndividual-AIPRE-202012181912036067101990501841</ns1:TransactionID>
+    <ns1:RqTimestamp>2020-12-18T19:21:03.607</ns1:RqTimestamp>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfSmartSearchIndividualRq xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/BSMF/pfSmartSearchIndividual/01" xmlns:ns3="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/BSMF/CTCBCore/01">
+      <ns3:TxnCode>pfSmartSearchIndividual</ns3:TxnCode>
+      <ns3:RqUID>pfSmartSearchIndividual-AIPRE-202012181912036067101990501841</ns3:RqUID>
+      <ns3:query>
+        <ns3:InquiryReason>ProvidingFacilities</ns3:InquiryReason>
+        <ns3:InquiryReasonText />
+        <ns3:Parameters>
+          <ns3:DateOfBirth>1980-09-07T00:00:00</ns3:DateOfBirth>
+          <ns3:FullName>Gupron Rahmatullah</ns3:FullName>
+          <ns3:IdNumbers>
+            <ns3:IdNumberPairIndividual>
+              <ns3:IdNumber>1704190709800026</ns3:IdNumber>
+              <ns3:IdNumberType>KTP</ns3:IdNumberType>
+            </ns3:IdNumberPairIndividual>
+          </ns3:IdNumbers>
+        </ns3:Parameters>
+      </ns3:query>
+    </ns2:pfSmartSearchIndividualRq>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

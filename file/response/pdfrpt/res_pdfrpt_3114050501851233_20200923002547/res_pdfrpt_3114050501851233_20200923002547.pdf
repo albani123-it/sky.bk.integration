@@ -1,0 +1,208 @@
+
+
+
+    
+
+
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pefindo Login</title>
+    <script type="text/javascript" src="/Defaults/scripts/Js?v=gQsAJRvJlNw4zcgW7_BS8PmTcm-tJhydmrKJ1yznLAU1"></script>
+    <link rel="stylesheet" type="text/css" href="/Defaults/Styles/Login/CssLogin?v=XsCMzBKkH44C6pVHKnupihxKcJIdyavQNO8BC8rJM6k1" />
+</head>
+<body>
+    <form method="post" action="./Login.aspx?ReturnUrl=%2fError%2fError.aspx%3faspxerrorpath%3d%2fReports%2fCreditinfoReportPlus.aspx%3fp%3dFndLUZ4Ln6nRUQKXH3%2bD9dQqJfDhgJz1hmufHlxgfbRRPR2uKV1n%2fwOku5pTcMjGnhVGl117LGDWF%2f6YKUvi6pRiJQIlkYDS2Sf6%2bCP3qeSzbVqzBktFEvmqesIHNLb5acH2cIf6wEfvoUfuBJqEhrZy38CddMm88YKGZU%2bWIMtVaaE0SHV6Rmi7CAqQ%2fdfF6Y2zKLMJ3mixCBgnUJStmAgTdh6Ouvn7t7KEjrIHAYO6tjnCxd6YaX%2fy3LekHEKM2NiNXV8OV7NNSNJyaaJNpeFu1Ezd3BOSGhiNjaE9IwkPd2lDJ%2fo%2bSg%3d%3d%26ENCODED%3dtrue&amp;aspxerrorpath=%2fReports%2fCreditinfoReportPlus.aspx%3fp%3dFndLUZ4Ln6nRUQKXH3+D9dQqJfDhgJz1hmufHlxgfbRRPR2uKV1n%2fwOku5pTcMjGnhVGl117LGDWF%2f6YKUvi6pRiJQIlkYDS2Sf6+CP3qeSzbVqzBktFEvmqesIHNLb5acH2cIf6wEfvoUfuBJqEhrZy38CddMm88YKGZU+WIMtVaaE0SHV6Rmi7CAqQ%2fdfF6Y2zKLMJ3mixCBgnUJStmAgTdh6Ouvn7t7KEjrIHAYO6tjnCxd6YaX%2fy3LekHEKM2NiNXV8OV7NNSNJyaaJNpeFu1Ezd3BOSGhiNjaE9IwkPd2lDJ%2fo+Sg%3d%3d&amp;ENCODED=true" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMxNjc3NTM3NQ9kFgJmDw8WBB4PX19BbnRpWHNyZlRva2VuBSAwZWNkOTNkZDZmNTQ0MzE5ODBkNWZjMzU4ZjBiOTg1Mh4SX19BbnRpWHNyZlVzZXJOYW1lZWQWAgICD2QWAgIBD2QWAmYPZBYCZg9kFggCAg9kFgQCAQ8WAh4EVGV4dGVkAgUPFgIfAmVkAgMPFCsAAg8WDB8CBQdFbmdsaXNoHhNjYWNoZWRTZWxlY3RlZFZhbHVlZB4XRW5hYmxlQWpheFNraW5SZW5kZXJpbmdoHhxFbmFibGVFbWJlZGRlZEJhc2VTdHlsZXNoZWV0Zx4SUmVzb2x2ZWRSZW5kZXJNb2RlCylyVGVsZXJpay5XZWIuVUkuUmVuZGVyTW9kZSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxNy4yLjcxMS40NSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0AR4VRW5hYmxlRW1iZWRkZWRTY3JpcHRzZ2QQFgJmAgEWAhQrAAIPFggfAgUcQmFoYXNhIEluZG9uZXNpYSAoSW5kb25lc2lhKR4FVmFsdWUFBWlkLUlEHghJbWFnZVVybAUgL0RlZmF1bHRzL2ltYWdlcy9mbGFncy9pZC1JRC5wbmceCFNlbGVjdGVkaGRkFCsAAg8WCB8CBQdFbmdsaXNoHwgFBWVuLUdCHwkFIC9EZWZhdWx0cy9pbWFnZXMvZmxhZ3MvZW4tR0IucG5nHwpnZGQPFgJmZhYBBXdUZWxlcmlrLldlYi5VSS5SYWRDb21ib0JveEl0ZW0sIFRlbGVyaWsuV2ViLlVJLCBWZXJzaW9uPTIwMTcuMi43MTEuNDUsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49MTIxZmFlNzgxNjViYTNkNBYIZg8PFgQeCENzc0NsYXNzBQlyY2JIZWFkZXIeBF8hU0ICAmRkAgEPDxYEHwsFCXJjYkZvb3Rlch8MAgJkZAICDw8WCB8CBRxCYWhhc2EgSW5kb25lc2lhIChJbmRvbmVzaWEpHwgFBWlkLUlEHwkFIC9EZWZhdWx0cy9pbWFnZXMvZmxhZ3MvaWQtSUQucG5nHwpoZGQCAw8PFggfAgUHRW5nbGlzaB8IBQVlbi1HQh8JBSAvRGVmYXVsdHMvaW1hZ2VzL2ZsYWdzL2VuLUdCLnBuZx8KZ2RkAgQPDxYEHwsFDWJveENvbnRhaW5lciAfDAICZBYEAgEPFgIfAmVkAgMPFgIfAmVkAgUPZBYCAgIPDxYCHgdWaXNpYmxlaGQWAgIDD2QWAmYPDxYCHhJUZXh0Qm94UGxhY2Vob2xkZXIFG0VudGVyIHRoZSB2ZXJpZmljYXRpb24gY29kZWQWAgIDDw9kFgIeC3BsYWNlaG9sZGVyBRtFbnRlciB0aGUgdmVyaWZpY2F0aW9uIGNvZGVkGAMFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBSJjdGwwMCRNYWluJGN0bDAwJHJhZENvbWJvTGFuZ3VhZ2VzBTxjdGwwMCRNYWluJGN0bDAwJFJlc2V0UGFzc3dvcmRDYXB0Y2hhVmFsaWRhdG9yJGN0bDAwJENhcHRjaGEPBSRlYWIzYTg5YS05NTU1LTQ3YTgtYjFhZS1jOTcwZGEzNzhkYjNkBSJjdGwwMCRNYWluJGN0bDAwJHJhZENvbWJvTGFuZ3VhZ2VzDxQrAAIFB0VuZ2xpc2gFBWVuLUdCZJYv/Gm337lMQrLSyujb8QewNblZ" />
+
+<link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=mjCG_Ha4QoRdMpXuatyXY4A8IjQcqlW35WwCL8oKgQyzzZ4ZPCt3r7UqWxn5xojLX5GJvEs1cNpDl70hFiSfP3x9uPI59gjpPtQ2VkYV-S5-ThhJ2RORu_C3tq9wngYf3yFl8Z_RqtzSwReQoXo6HT1bcSI1&amp;t=636858445840000000' /><link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=Ccu6OwgJxCUH52Eo5Ne_54DXvxA1Y7X1Vm3Y0NW22Wt0ID7Fz1eCrRuoRvabiHchSacVDzEtk-ORxOy63GK5ZMCxahLq12wUncjmVXARDH01aBebNSoO49GoAqJTdK4B9siRXD5VCDkF_RuU10fvWPIUYVJArC1vUYVF3gcEWmhP1VzG0&amp;t=636858445840000000' />
+<script src="/ScriptResource.axd?d=-L7hMTzGodGFsPZ1OIKdX5JJJpXSuUd9a2ss6rIiIL0U5xJr041QyrVxcBo-OY8nFjhDQnW_WztXEqWYARLZj_C_1aaDG-ijZrVv-ydxIaC-lViRptZAmRntVdyNz-XLXbA6hRMAxoTFKgp6L59R6Cn2MHMPEdbSIw6du5NeGsbGgXgA0&amp;t=ffffffffcd368728" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=7WBZ7yfO0-9KRhCsXpVxVoN0W2dHf7HUppxeTAh2Hx2Wn-szkApX6DspLHSz2IcNNor4rV_8CRyxfbfKNTRV3sG_Ox-A0xm7T5WFv1a4DrANz314Y3GCrtsbCsfpy2aoJdN9TQ2&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Eb67UVqXu8ofxF97TJ3D_UR69OgtWs98wSxc988qT7uCoVovWGUy4xTgFoCajwOBGcAKVQlIro7s8C0vAoUwdBMzqyAR9Q6Zd9HaG36Fka_99rfkJusa20EGbOkjDZK76lAPVam0dOqkqDGB4zK325CDcXE1&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ACBvtFpjogBbAjHoVw_HZ89kIoeAEX2TNjsfPGUsD7mFs5PGeiiI422FoKoCkvikPTg5kQD6GSMi4j-y2r39G_F_hq60Wf6nHvBA0NL1L0OyClRq2waFXlRlsV4do91dGkdTSGUAPhXMuXIbgb37-CtOirfEnP4ZPtsGO2ROCL90oou10&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=2Ad2pLcjfYWbrZxyVKrYeUOlDLmm_49Jpdc1nAhGPRRzCRpDb_Hygx6kQ0Ix2B7xAERkC7lV4_abp9fMD33_2DdvjUpYK3ashraELs7Nz7lGBG-1Ff010wzaK6qdPFG1_WK_MuImkjbPzogwIoIJE5Eq16I1&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mNjSXiU-qgFLubZfrXMBAZc1RStXEJcJPHi_PvyR0XSDYVG7SdQn0oSvmwwrjKS8umUE5gFHYUSXwZtBxrc4Y20f04RGNMkYEyZjxpb2bAhhG5uCUlKaOQigjOvCZzsJ8N0f2TFNj_GIUkoz187S3Hq3HWi6rMcnZHpd0zLk4vh5_z110&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Uh0GFrRKungLBmayBo18MceAMdJ6oOhmHSxzbRhPGXB9zDFI-nRe9O3qD3WCuGp-hop83j6M-di2efnvz46N1EMDBSfDEaoC_QGY-0_JBjbbxzCNcj3DskQs64j4OsbjNiMkwDIsqT7Es-N-Zy8nSWrVYaTb0yppuIxuqqy2dQL2WKEn0&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=uePT_ehGz9JU6WsfCqlzJNLFir4w7Cm1NdXy5KN5FqDifql49ezxI75zBMvqeGLh4lIsBiYLxMqPKtL8afKEwbGEj4t_XwDyyaLJU0XzUJSK0H9W0bbE5BNhzApUliPIs15OOF_aCzqge4oMFvbK8sFzowWMDbQiZ7oADZHOFws7ZKM_0&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=bxQOATkKxdrZ6jP3tkZ5vKeSM7LiljiS7FylajXSxvY1Ah5ILA1KE9GuNbMIhtT_M6XP_u1dYbAtmsSASwKZ54iZqqWiW3JtFAeD99LB-iSFaeopRnzpPHu5jyAJUs1w5GWisDjUZVGdSlfY8QrE1MlHaIo1&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5rdJlna0q-MIN6bIjgf1aC2hZtMddJj5cB2FjwOinDQifPTGeNi32QdZq_qXSmEY4UCF2p_X7Igr1QQDRlGv5YngovqFrnWnZttJZ7yJ4fqdZjxKin0VrdRsY4SBhW3bHvLShz--GZsTCSfRoegsF24-7L5zurwBLT2sYujxJw5vfTYu0&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5k16xyho_3JrFi7cWdbfoRv9DaUQHXpk3Lt45nvNImPFCW1D71Qllinyhh2HR5JAICx5ainOcEfdMUmvLU00HbEuVnH5GA4Aa9TM2Gkl6XmIdsEXO6Ya6Isvn3vCjBc6Dg5STvE2eb_XDtTW2k0HhlLswWo1&amp;t=2433ea28" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=lqT3YrCG5cjitYbo5nOHu739yRiwsPh77FacVKLil77jdpTVPtMM9p4dFbTM_vJxjLm7J0rJUBgnH-xhrzkBexXzgaq9tXJts98VuJSRTa83s-ONEIvf37Sd8yH-D5rqFmFdc6Q39byXKyUbrM6ENH6Wnz41&amp;t=2433ea28" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="03D419CA" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAnrpTw58Qkdi7gWlLcDkOkGrFK9V8AZWT5B1/wpwprw8ErRJHyZ/vzF0yH2xzPO607Te16GBadVdn9F2K8GV414yIh1BvBggt8Q579iDNi8Osq9P908NMUJqejNcmX4RgvENUCg3VaNqBc8dYALr7THsuB9+j6C/qNYPPOG4d3kfAzXWt4eWDQ/oszNn1STGbK4AQFLr8S2xR6HNtOA4NWzEvMiog==" />
+        <div class="wrap">
+            
+            <div class="content-full login">
+                <div class="loginbox left">
+                    
+                    <div id="Main_ctl00_pnlAnnouncements" class="boxContainer">
+	
+                        <h6>
+                            
+                        </h6>
+                        <div class="rssTitle">
+                            
+                        </div>
+                        <div class="messageContainer">
+                            
+                        </div>
+                        <a id="Main_ctl00_lnkMore" target="_blank"></a>
+                    
+</div>
+                </div>
+                <div class="loginbox center">
+                    <div class="lang">
+				        <div id="ctl00_Main_ctl00_radComboLanguages" class="RadComboBox RadComboBox_Default language">
+	<!-- 2017.2.711.45 --><table summary="combobox" style="border-width:0;border-collapse:collapse;width:100%">
+		<tr class="rcbReadOnly">
+			<td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$Main$ctl00$radComboLanguages" type="text" class="rcbInput radPreventDecorate flag" id="ctl00_Main_ctl00_radComboLanguages_Input" value="English" readonly="readonly" /></td><td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_Main_ctl00_radComboLanguages_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+		</tr>
+	</table><div class="rcbSlide" style="z-index:6000;display:none;"><div id="ctl00_Main_ctl00_radComboLanguages_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Default "><div class="rcbScroll rcbWidth"><ul class="rcbList"><li class="rcbItem"><img alt="" src="/Defaults/images/flags/id-ID.png" class="rcbImage" />Bahasa Indonesia (Indonesia)</li><li class="rcbItem"><img alt="" src="/Defaults/images/flags/en-GB.png" class="rcbImage" />English</li></ul></div></div></div><input id="ctl00_Main_ctl00_radComboLanguages_ClientState" name="ctl00_Main_ctl00_radComboLanguages_ClientState" type="hidden" />
+</div>
+			        </div>
+                    <div class="logoContainer"></div>
+                    <div id="Main_ctl00_pnlMessageBox" class="boxContainer " style="display: none;">
+	
+                        <h6 class="white"></h6>
+                        <div class="messageContainer">
+                            
+                        </div>
+                        <div class="buttonContainer">
+                            <a id="Main_ctl00_lnkBtnMessageContinue" class="button rounded green small main" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl00$lnkBtnMessageContinue&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Continue</a>
+                        </div>
+                    
+</div>
+
+                    <div id="Main_ctl00_pnlForgotPass" class="boxContainer" style="display: none;">
+	
+                        <h6 class="white">Forgot Password</h6>
+
+                        <label for="Main_ctl00_tbUserName1" id="Main_ctl00_lblRegno" class="label login">Username</label>
+                        <input name="ctl00$Main$ctl00$tbUserName1" type="text" id="Main_ctl00_tbUserName1" tabindex="1" class="input login" />
+
+                        
+
+                        <div class="buttonContainer">
+                            <a id="Main_ctl00_lnkBtnForgotPassCancel" class="btnForgotPass secondary" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl00$lnkBtnForgotPassCancel&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Cancel ?</a>
+                            <a onclick="return fncChkForgotPass();" id="Main_ctl00_lnkBtnForgotPass" class="button red rounded small main" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl00$lnkBtnForgotPass&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Send</a>
+                        </div>
+                    
+</div>
+
+                    <div id="Main_ctl00_pnlLogin" class="boxContainer currentOpen">
+	
+                        <h6 class="white">Login</h6>
+
+                        <label for="Main_ctl00_tbUsername" id="Main_ctl00_lblUsername" class="label login">Username</label>
+                        <input name="ctl00$Main$ctl00$tbUsername" type="text" maxlength="40" id="Main_ctl00_tbUsername" tabindex="1" class="input login" />
+
+                        <label for="Main_ctl00_tbPassword" id="Main_ctl00_lblPassword" class="label login">Password</label>
+                        <input name="ctl00$Main$ctl00$tbPassword" type="password" maxlength="64" id="Main_ctl00_tbPassword" tabindex="2" class="input login" autocomplete="off" />
+
+                        <div class="buttonContainer">
+                            <a id="Main_ctl00_lnkBtnForgot" class="btnForgotPass login secondary" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl00$lnkBtnForgot&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Forgot <br/> password?</a>
+                            <a onclick="return fncChkLogin();" id="Main_ctl00_lnkBtnLogin" tabindex="3" class="button red rounded small logout main" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl00$lnkBtnLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Login</a>
+                        </div>
+                    
+</div>
+                </div>
+
+                <div class="loginbox right">
+                    
+                    
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" charset="utf-8">
+            $('.btnForgotPass').click(function (e) {
+                e.preventDefault();
+                $("#Main_ctl00_pnlLogin").slideToggle();
+                $("#Main_ctl00_pnlForgotPass").slideToggle();
+
+                if ($("#Main_ctl00_pnlForgotPass").is(":visible")) {
+                    document.getElementById('Main_ctl00_tbUserName1').focus();
+                    fncSetFormEnterBtn('Main_ctl00_lnkBtnForgotPass');
+                }
+            });
+
+            function fncChkLogin() {
+                if (document.getElementById('Main_ctl00_tbUsername').value == "") {
+                    var encoded = 'You need to fill out username!'
+                    alert($("<div/>").html(encoded).text());
+                    document.getElementById('Main_ctl00_tbUsername').focus();
+                    return false;
+                }
+
+                if (document.getElementById('Main_ctl00_tbPassword').value == "") {
+                    var encode = 'You need to fill out password!'
+                    alert($("<div/>").html(encode).text());
+                    document.getElementById('Main_ctl00_tbPassword').focus();
+                    return false;
+                }
+                return true;
+            }
+
+            var isSubmitted = false;
+
+            function fncChkForgotPass() {
+                if (document.getElementById('Main_ctl00_tbUserName1').value == "") {
+                    var encoded = 'You need to fill out username!'
+                    alert($("<div/>").html(encoded).text());
+                    document.getElementById('Main_ctl00_tbUserName1').focus();
+                    return false;
+                }
+                if (!isSubmitted) {
+                    isSubmitted = true;
+                } else {
+                    return false;
+                }
+
+                return true;
+            }
+
+            function reopenWindow(type) {
+                $('.currentOpen').slideToggle().toggleClass("currentOpen");
+
+                if (type == "confirm") {
+                    $("#Main_ctl00_pnlMessageBox").slideToggle().toggleClass('currentOpen');
+                }
+                else if (type == "forgot") {
+                    $("#Main_ctl00_pnlForgotPass").slideToggle().toggleClass('currentOpen');
+                }
+                else if (type == "login") {
+                    $("#Main_ctl00_pnlLogin").slideToggle().toggleClass('currentOpen');
+                }
+
+                return false;
+            }
+
+            function showSelectedImage(sender) {
+                var input = sender.get_inputDomElement();
+                var item = sender.get_selectedItem();
+                input.style.background = "url(" + item.get_imageUrl() + ") no-repeat";
+            }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadComboBox, {"_dropDownWidth":0,"_height":0,"_postBackReference":"WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\u0027ctl00$Main$ctl00$radComboLanguages\u0027, \u0027arguments\u0027, true, \u0027\u0027, \u0027\u0027, false, true))","_skin":"Default","_text":"English","_uniqueId":"ctl00$Main$ctl00$radComboLanguages","_value":"en-GB","clientStateFieldID":"ctl00_Main_ctl00_radComboLanguages_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"duration\":450}","itemData":[{"value":"id-ID","imageUrl":"/Defaults/images/flags/id-ID.png"},{"value":"en-GB","selected":true,"imageUrl":"/Defaults/images/flags/en-GB.png"}],"localization":"{\"AllItemsCheckedString\":\"All items checked\",\"ItemsCheckedString\":\"items checked\",\"CheckAllString\":\"Check All\"}","selectedIndex":1}, {"load":showSelectedImage,"selectedIndexChanged":showSelectedImage}, null, $get("ctl00_Main_ctl00_radComboLanguages"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
+
+
+

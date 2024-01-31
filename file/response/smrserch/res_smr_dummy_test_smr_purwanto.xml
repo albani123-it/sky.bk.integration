@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>6ysN02DO5PunT-mTec-7mO0Ur0U</ns1:TrackingID>
+    <ns1:ServiceName>pfSmartSearchIndividual</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfSmartSearchIndividual-AIPRE-202012011712473586041314818434</ns1:TransactionID>
+    <ns1:RsTimestamp>2020-12-01T17:00:06.185+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfSmartSearchIndividualRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfSmartSearchIndividual/01">
+      <ns2:RqUID>pfSmartSearchIndividual-AIPRE-202012011712473586041314818434</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:SmartSearchIndividualResult>
+        <ns2:IndividualRecords>
+          <ns2:SearchIndividualRecord>
+            <ns2:Address>Jl.Tebet Mas Regensi No 14 C. 27, Jakarta Selatan Wil Kota 12170, Tebet Barat, Tebet, ID</ns2:Address>
+            <ns2:DateOfBirth>1982-10-05T00:00:00</ns2:DateOfBirth>
+            <ns2:FullName>Purwanto Budi Ahmadi</ns2:FullName>
+            <ns2:KTP>5274070510820009</ns2:KTP>
+            <ns2:PefindoId>3947031</ns2:PefindoId>
+          </ns2:SearchIndividualRecord>
+          <ns2:SearchIndividualRecord>
+            <ns2:Address>Kp kalibata No 13 RT 1 RW 7, Jakarta Selatan</ns2:Address>
+            <ns2:DateOfBirth>1982-10-05T00:00:00</ns2:DateOfBirth>
+            <ns2:FullName>Purwanto Budi Ahmadi</ns2:FullName>
+            <ns2:KTP>5274070510820009</ns2:KTP>
+            <ns2:PefindoId>56007193</ns2:PefindoId>
+          </ns2:SearchIndividualRecord>
+        </ns2:IndividualRecords>
+        <ns2:NilReport>
+          <ns2:Records />
+          <ns2:Summary />
+        </ns2:NilReport>
+        <ns2:Parameters>
+          <ns2:DateOfBirth>1982-10-05T00:00:00</ns2:DateOfBirth>
+          <ns2:FullName>Purwanto Budi Ahmadi</ns2:FullName>
+          <ns2:IdNumbers>
+            <ns2:IdNumberPairIndividual>
+              <ns2:IdNumber>5274070510820099</ns2:IdNumber>
+              <ns2:IdNumberType>KTP</ns2:IdNumberType>
+            </ns2:IdNumberPairIndividual>
+          </ns2:IdNumbers>
+        </ns2:Parameters>
+        <ns2:PefindoId />
+        <ns2:SearchRuleApplied>NationalID</ns2:SearchRuleApplied>
+        <ns2:Status>SubjectFound</ns2:Status>
+      </ns2:SmartSearchIndividualResult>
+    </ns2:pfSmartSearchIndividualRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

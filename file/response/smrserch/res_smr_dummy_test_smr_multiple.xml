@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>h3SoTvak8sQ9q-O1OF-7mFTkjPA</ns1:TrackingID>
+    <ns1:ServiceName>pfSmartSearchIndividual</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfSmartSearchIndividual-AIPRE-202108092208419802521804007177</ns1:TransactionID>
+    <ns1:RsTimestamp>2021-08-09T22:28:18.531+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfSmartSearchIndividualRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfSmartSearchIndividual/01">
+      <ns2:RqUID>pfSmartSearchIndividual-AIPRE-202108092208419802521804007177</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:SmartSearchIndividualResult>
+        <ns2:IndividualRecords>
+          <ns2:SearchIndividualRecord>
+            <ns2:Address>Kp Cipeuteuy Rt 04 Rw 02, Lebak, Kab.</ns2:Address>
+            <ns2:DateOfBirth>1992-10-15T00:00:00</ns2:DateOfBirth>
+            <ns2:FullName>Helmi</ns2:FullName>
+            <ns2:KTP>3602081510920003</ns2:KTP>
+            <ns2:PefindoId>1535208499</ns2:PefindoId>
+          </ns2:SearchIndividualRecord>
+          <ns2:SearchIndividualRecord>
+            <ns2:Address>Jl. Nusa Indah VI / 10 177 007/003 MALAKA JAYA DUREN SAWIT JAKARTA TIMUR DKI JAKARTA, NotSpecified</ns2:Address>
+            <ns2:DateOfBirth>1993-12-17T00:00:00</ns2:DateOfBirth>
+            <ns2:FullName>Bayu Duantono</ns2:FullName>
+            <ns2:KTP>3175071712930002</ns2:KTP>
+            <ns2:PefindoId>2717319792</ns2:PefindoId>
+          </ns2:SearchIndividualRecord>
+        </ns2:IndividualRecords>
+        <ns2:NilReport>
+          <ns2:Records />
+          <ns2:Summary />
+        </ns2:NilReport>
+        <ns2:Parameters>
+          <ns2:DateOfBirth>1993-12-17T00:00:00</ns2:DateOfBirth>
+          <ns2:FullName>BAYU DUANTONO</ns2:FullName>
+          <ns2:IdNumbers>
+            <ns2:IdNumberPairIndividual>
+              <ns2:IdNumber>3175071712930002</ns2:IdNumber>
+              <ns2:IdNumberType>KTP</ns2:IdNumberType>
+            </ns2:IdNumberPairIndividual>
+          </ns2:IdNumbers>
+        </ns2:Parameters>
+        <ns2:PefindoId />
+        <ns2:SearchRuleApplied>NationalID</ns2:SearchRuleApplied>
+        <ns2:Status>SubjectFound</ns2:Status>
+      </ns2:SmartSearchIndividualResult>
+    </ns2:pfSmartSearchIndividualRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>RjuLL3OvPC0cgkBQLF-7n9BEr0U</ns1:TrackingID>
+    <ns1:ServiceName>pfGetCustomReport</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfGetCustomReport-AIPRE-20200908150941174426801851849</ns1:TransactionID>
+    <ns1:RsTimestamp>2020-09-08T15:41:37.595+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>1</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfGetCustomReportRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfGetCustomReport/01">
+      <ns2:RqUID />
+      <ns2:GetCustomReportResult>
+        <ns2:CIP>
+          <ns2:RecordList />
+        </ns2:CIP>
+        <ns2:CIQ>
+          <ns2:Detail />
+          <ns2:Summary />
+        </ns2:CIQ>
+        <ns2:Collaterals>
+          <ns2:CollateralList />
+          <ns2:Summary>
+            <ns2:TotalValueOfCashCollaterals />
+            <ns2:TotalValueOfNonCashCollaterals />
+          </ns2:Summary>
+        </ns2:Collaterals>
+        <ns2:Company>
+          <ns2:Contact />
+          <ns2:General />
+          <ns2:Identifications />
+          <ns2:MainAddress />
+        </ns2:Company>
+        <ns2:ContractOverview>
+          <ns2:ContractList />
+        </ns2:ContractOverview>
+        <ns2:ContractSummary>
+          <ns2:Debtor>
+            <ns2:OutstandingAmountSum />
+            <ns2:PastDueAmountSum />
+            <ns2:TotalAmountSum />
+          </ns2:Debtor>
+          <ns2:Guarantor>
+            <ns2:OutstandingAmountSum />
+            <ns2:PastDueAmountSum />
+            <ns2:TotalAmountSum />
+          </ns2:Guarantor>
+          <ns2:Overall>
+            <ns2:WorstPastDueAmount />
+          </ns2:Overall>
+          <ns2:PaymentCalendarList />
+          <ns2:SectorInfoList />
+        </ns2:ContractSummary>
+        <ns2:Contracts>
+          <ns2:ContractList />
+        </ns2:Contracts>
+        <ns2:CurrentRelations>
+          <ns2:ContractRelationList />
+          <ns2:InvolvementList />
+          <ns2:RelatedPartyList />
+        </ns2:CurrentRelations>
+        <ns2:Dashboard>
+          <ns2:CIQ />
+          <ns2:Collaterals>
+            <ns2:TotalNonCashCollateralValue />
+          </ns2:Collaterals>
+          <ns2:Disputes />
+          <ns2:Inquiries />
+          <ns2:Involvements />
+          <ns2:OtherLiabilities />
+          <ns2:PaymentsProfile>
+            <ns2:PastDueAmountSum />
+          </ns2:PaymentsProfile>
+          <ns2:Relations />
+          <ns2:Securities />
+        </ns2:Dashboard>
+        <ns2:Disputes>
+          <ns2:DisputeList />
+          <ns2:Summary />
+        </ns2:Disputes>
+        <ns2:Financials>
+          <ns2:FinancialStatementList />
+        </ns2:Financials>
+        <ns2:Individual>
+          <ns2:Contact />
+          <ns2:General />
+          <ns2:Identifications />
+          <ns2:MainAddress />
+        </ns2:Individual>
+        <ns2:Inquiries>
+          <ns2:InquiryList />
+          <ns2:Summary />
+        </ns2:Inquiries>
+        <ns2:Involvements>
+          <ns2:InvolvementList />
+          <ns2:Summary>
+            <ns2:TotalAmountOfActiveInvolvements />
+          </ns2:Summary>
+        </ns2:Involvements>
+        <ns2:OtherLiabilities>
+          <ns2:OtherLiabilityList />
+          <ns2:Summary>
+            <ns2:TotalMarketValue />
+            <ns2:TotalPrincipalArrears />
+          </ns2:Summary>
+        </ns2:OtherLiabilities>
+        <ns2:Parameters>
+          <ns2:Sections />
+        </ns2:Parameters>
+        <ns2:ReportInfo />
+        <ns2:Securities>
+          <ns2:SecurityList />
+          <ns2:Summary>
+            <ns2:TotalMarketValue />
+            <ns2:TotalPrincipalArrears />
+          </ns2:Summary>
+        </ns2:Securities>
+        <ns2:SubjectInfoHistory>
+          <ns2:AddressList />
+          <ns2:ContactList />
+          <ns2:GeneralList />
+          <ns2:IdentificationsList />
+        </ns2:SubjectInfoHistory>
+      </ns2:GetCustomReportResult>
+    </ns2:pfGetCustomReportRs>
+  </ns1:ServiceBody>
+  <ns1:ServiceError xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope" xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceError">
+    <ns2:Error xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/Common">
+      <ns2:ErrorType>VALIDATION</ns2:ErrorType>
+      <ns2:ErrorCode>E801</ns2:ErrorCode>
+      <ns2:Timestamp>2020-09-08T15:41:37.593+07:00</ns2:Timestamp>
+      <ns2:ErrorMessage>Error occurred in ESB while transforming response from Provider format to Client format. MsgCode=BW-XML-100013, Msg=A validation occurred while parsing:  validation error: undeclared attribute: "{http://www.w3.org/XML/1998/namespace}lang"   ({com.tibco.xml.validation}COMPLEX_E_UNDECLARED_ATTRIBUTE) at /s:Envelope[1]/s:Body[1]/s:Fault[1]/faultstring[1]/@xml:lang
+com.tibco.xml.validation.exception.UnexpectedAttributeException: undeclared attribute: "{http://www.w3.org/XML/1998/namespace}lang"
+	at com.tibco.xml.validation.state.driver.ValidationJazz.a(ValidationJazz.java:687)
+	at com.tibco.xml.validation.state.driver.ValidationJazz.attribute(ValidationJazz.java:602)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:80)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:129)
+	at com.tibco.xml.xdata.bind.BindingRunner.validate(Unknown Source)
+	at com.tibco.plugin.xml.XMLParseActivity.eval(Unknown Source)
+	at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+	at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+	at com.tibco.pe.core.Job.a(Unknown Source)
+	at com.tibco.pe.core.Job.k(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+.</ns2:ErrorMessage>
+      <ns2:ErrorContext>Job-269565 Error in [CoreServices/BusinessServices/Credit_Bureau/pfGetCustomReport/Ver01/RsTransformPefindo.process/ParseXML]
+A validation occurred while parsing:  validation error: undeclared attribute: "{http://www.w3.org/XML/1998/namespace}lang"   ({com.tibco.xml.validation}COMPLEX_E_UNDECLARED_ATTRIBUTE) at /s:Envelope[1]/s:Body[1]/s:Fault[1]/faultstring[1]/@xml:lang
+com.tibco.xml.validation.exception.UnexpectedAttributeException: undeclared attribute: "{http://www.w3.org/XML/1998/namespace}lang"
+	at com.tibco.xml.validation.state.driver.ValidationJazz.a(ValidationJazz.java:687)
+	at com.tibco.xml.validation.state.driver.ValidationJazz.attribute(ValidationJazz.java:602)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:80)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:129)
+	at com.tibco.xml.xdata.bind.BindingRunner.validate(Unknown Source)
+	at com.tibco.plugin.xml.XMLParseActivity.eval(Unknown Source)
+	at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+	at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+	at com.tibco.pe.core.Job.a(Unknown Source)
+	at com.tibco.pe.core.Job.k(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+.
+	at com.tibco.plugin.xml.XMLParseActivity.eval(Unknown Source)
+	at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+	at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+	at com.tibco.pe.core.Job.a(Unknown Source)
+	at com.tibco.pe.core.Job.k(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+caused by: org.xml.sax.SAXException: validation error: undeclared attribute: "{http://www.w3.org/XML/1998/namespace}lang"   ({com.tibco.xml.validation}COMPLEX_E_UNDECLARED_ATTRIBUTE) at /s:Envelope[1]/s:Body[1]/s:Fault[1]/faultstring[1]/@xml:lang
+com.tibco.xml.validation.exception.UnexpectedAttributeException: undeclared attribute: "{http://www.w3.org/XML/1998/namespace}lang"
+	at com.tibco.xml.validation.state.driver.ValidationJazz.a(ValidationJazz.java:687)
+	at com.tibco.xml.validation.state.driver.ValidationJazz.attribute(ValidationJazz.java:602)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:80)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:92)
+	at com.tibco.xml.validation.state.glue.XmlTreeNodeValidationDriver.xmlTreeNode(XmlTreeNodeValidationDriver.java:129)
+	at com.tibco.xml.xdata.bind.BindingRunner.validate(Unknown Source)
+	at com.tibco.plugin.xml.XMLParseActivity.eval(Unknown Source)
+	at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+	at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+	at com.tibco.pe.core.Job.a(Unknown Source)
+	at com.tibco.pe.core.Job.k(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+
+	at com.tibco.xml.xdata.bind.BindingRemarkHandler.assertNoErrors(Unknown Source)
+	at com.tibco.xml.xdata.bind.BindingRunner.validate(Unknown Source)
+	at com.tibco.plugin.xml.XMLParseActivity.eval(Unknown Source)
+	at com.tibco.pe.plugin.Activity.eval(Unknown Source)
+	at com.tibco.pe.core.TaskImpl.eval(Unknown Source)
+	at com.tibco.pe.core.Job.a(Unknown Source)
+	at com.tibco.pe.core.Job.k(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)
+	at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)
+</ns2:ErrorContext>
+    </ns2:Error>
+  </ns1:ServiceError>
+</ns0:ServiceEnvelope>

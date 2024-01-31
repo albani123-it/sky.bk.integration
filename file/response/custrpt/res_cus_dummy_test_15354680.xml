@@ -1,0 +1,2856 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetCustomReportResponse xmlns="http://creditinfo.com/CB5">
+      <GetCustomReportResult xmlns:a="http://creditinfo.com/CB5/v5.53/CustomReport" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CIP xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/CIP">
+          <b:RecordList>
+            <b:Record>
+              <b:Date>2018-10-01T00:00:00</b:Date>
+              <b:Grade>C1</b:Grade>
+              <b:ProbabilityOfDefault>3.70</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NQS2</b:Code>
+                  <b:Description>3 or more subscribers have recently requested reports on subject</b:Description>
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>671</b:Score>
+              <b:Trend>NoChange</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-09-30T00:00:00</b:Date>
+              <b:Grade>C1</b:Grade>
+              <b:ProbabilityOfDefault>3.70</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NQS2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>671</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-08-31T00:00:00</b:Date>
+              <b:Grade>C2</b:Grade>
+              <b:ProbabilityOfDefault>4.83</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NQS1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>659</b:Score>
+              <b:Trend>Down</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-07-31T00:00:00</b:Date>
+              <b:Grade>C2</b:Grade>
+              <b:ProbabilityOfDefault>4.52</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NQS2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>NBC3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>662</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-06-30T00:00:00</b:Date>
+              <b:Grade>C3</b:Grade>
+              <b:ProbabilityOfDefault>5.63</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NQS1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>NBC3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>652</b:Score>
+              <b:Trend>NoChange</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-05-31T00:00:00</b:Date>
+              <b:Grade>C3</b:Grade>
+              <b:ProbabilityOfDefault>5.63</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NQS1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>NBC3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>652</b:Score>
+              <b:Trend>Down</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-04-30T00:00:00</b:Date>
+              <b:Grade>B3</b:Grade>
+              <b:ProbabilityOfDefault>2.77</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NBC3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>684</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-03-31T00:00:00</b:Date>
+              <b:Grade>B3</b:Grade>
+              <b:ProbabilityOfDefault>2.83</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NBC3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>683</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-02-28T00:00:00</b:Date>
+              <b:Grade>C1</b:Grade>
+              <b:ProbabilityOfDefault>3.31</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NBC3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>676</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2018-01-31T00:00:00</b:Date>
+              <b:Grade>C2</b:Grade>
+              <b:ProbabilityOfDefault>5.27</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NBC2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>RCU1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>655</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2017-12-31T00:00:00</b:Date>
+              <b:Grade>C3</b:Grade>
+              <b:ProbabilityOfDefault>6.28</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NBC2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>RCU1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>647</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2017-11-30T00:00:00</b:Date>
+              <b:Grade>D1</b:Grade>
+              <b:ProbabilityOfDefault>9.41</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NBC2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>RCU1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>NSL3</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>628</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+            <b:Record>
+              <b:Date>2017-10-31T00:00:00</b:Date>
+              <b:Grade>D1</b:Grade>
+              <b:ProbabilityOfDefault>10.88</b:ProbabilityOfDefault>
+              <b:ReasonsList>
+                <b:Reason>
+                  <b:Code>NSL2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>NBC2</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+                <b:Reason>
+                  <b:Code>RCU1</b:Code>
+                  <b:Description i:nil="true" />
+                </b:Reason>
+              </b:ReasonsList>
+              <b:Score>621</b:Score>
+              <b:Trend>Up</b:Trend>
+            </b:Record>
+          </b:RecordList>
+        </a:CIP>
+        <a:CIQ xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/CIQ">
+          <b:Detail>
+            <b:NumberOfCancelledClosedContracts>0</b:NumberOfCancelledClosedContracts>
+            <b:NumberOfSubscribersMadeInquiriesLast14Days>0</b:NumberOfSubscribersMadeInquiriesLast14Days>
+            <b:NumberOfSubscribersMadeInquiriesLast2Days>0</b:NumberOfSubscribersMadeInquiriesLast2Days>
+          </b:Detail>
+          <b:Summary>
+            <b:DateOfLastFraudRegistrationPrimarySubject i:nil="true" />
+            <b:DateOfLastFraudRegistrationThirdParty i:nil="true" />
+            <b:NumberOfFraudAlertsPrimarySubject>0</b:NumberOfFraudAlertsPrimarySubject>
+            <b:NumberOfFraudAlertsThirdParty>0</b:NumberOfFraudAlertsThirdParty>
+          </b:Summary>
+        </a:CIQ>
+        <a:Collaterals i:nil="true" xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Collaterals" />
+        <a:Company i:nil="true" xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Company" />
+        <a:ContractOverview xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/ContractOverview">
+          <b:ContractList>
+            <b:Contract>
+              <b:ContractStatus>GrantedAndActivated</b:ContractStatus>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>8390356.00</c:LocalValue>
+                <c:Value>8390356.00</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PhaseOfContract>Open</b:PhaseOfContract>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:Sector>Banks</b:Sector>
+              <b:StartDate>2016-11-30T00:00:00</b:StartDate>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TypeOfContract>CreditCard</b:TypeOfContract>
+            </b:Contract>
+            <b:Contract>
+              <b:ContractStatus>GrantedAndActivated</b:ContractStatus>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>338016662.54</c:LocalValue>
+                <c:Value>338016662.54</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PhaseOfContract>Open</b:PhaseOfContract>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:Sector>Banks</b:Sector>
+              <b:StartDate>2017-07-11T00:00:00</b:StartDate>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>350000000.00</c:LocalValue>
+                <c:Value>350000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TypeOfContract>OtherWithLoanAgreement</b:TypeOfContract>
+            </b:Contract>
+            <b:Contract>
+              <b:ContractStatus>GrantedAndActivated</b:ContractStatus>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>13857281.48</c:LocalValue>
+                <c:Value>13857281.48</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PhaseOfContract>Open</b:PhaseOfContract>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:StartDate>2017-04-11T00:00:00</b:StartDate>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TypeOfContract>OtherWithLoanAgreement</b:TypeOfContract>
+            </b:Contract>
+            <b:Contract>
+              <b:ContractStatus>Settled</b:ContractStatus>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PhaseOfContract>Closed</b:PhaseOfContract>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:Sector>Pawnshop</b:Sector>
+              <b:StartDate>2017-05-11T00:00:00</b:StartDate>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>7000000.00</c:LocalValue>
+                <c:Value>7000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TypeOfContract>ConsumerCredit</b:TypeOfContract>
+            </b:Contract>
+          </b:ContractList>
+        </a:ContractOverview>
+        <a:ContractSummary xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/ContractSummary">
+          <b:Debtor>
+            <b:ClosedContracts>1</b:ClosedContracts>
+            <b:OpenContracts>3</b:OpenContracts>
+            <b:OutstandingAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>360264300.02</c:LocalValue>
+              <c:Value>360264300.02</c:Value>
+            </b:OutstandingAmountSum>
+            <b:PastDueAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0.00</c:LocalValue>
+              <c:Value>0.00</c:Value>
+            </b:PastDueAmountSum>
+            <b:TotalAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>390000000.00</c:LocalValue>
+              <c:Value>390000000.00</c:Value>
+            </b:TotalAmountSum>
+          </b:Debtor>
+          <b:Guarantor>
+            <b:ClosedContracts>0</b:ClosedContracts>
+            <b:OpenContracts>0</b:OpenContracts>
+            <b:OutstandingAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+            <b:PastDueAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+            <b:TotalAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+          </b:Guarantor>
+          <b:Overall>
+            <b:LastDelinquency90PlusDays i:nil="true" />
+            <b:WorstPastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:WorstPastDueAmount>
+            <b:WorstPastDueDays>0</b:WorstPastDueDays>
+          </b:Overall>
+          <b:PaymentCalendarList>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2018-10-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2018-09-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2018-08-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2018-07-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2018-06-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2018-05-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>3</b:ContractsSubmitted>
+              <b:Date>2018-04-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>360264300.02</c:LocalValue>
+                <c:Value>360264300.02</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>3</b:ContractsSubmitted>
+              <b:Date>2018-03-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>362579214.99</c:LocalValue>
+                <c:Value>362579214.99</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>3</b:ContractsSubmitted>
+              <b:Date>2018-02-28T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>364876697.84</c:LocalValue>
+                <c:Value>364876697.84</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>3</b:ContractsSubmitted>
+              <b:Date>2018-01-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>367163343.50</c:LocalValue>
+                <c:Value>367163343.50</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>3</b:ContractsSubmitted>
+              <b:Date>2017-12-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>369439205.57</c:LocalValue>
+                <c:Value>369439205.57</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>4</b:ContractsSubmitted>
+              <b:Date>2017-11-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>372119449.67</c:LocalValue>
+                <c:Value>372119449.67</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>4</b:ContractsSubmitted>
+              <b:Date>2017-10-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>375563186.52</c:LocalValue>
+                <c:Value>375563186.52</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>4</b:ContractsSubmitted>
+              <b:Date>2017-09-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>379396429.41</c:LocalValue>
+                <c:Value>379396429.41</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>4</b:ContractsSubmitted>
+              <b:Date>2017-08-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>382797678.35</c:LocalValue>
+                <c:Value>382797678.35</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>4</b:ContractsSubmitted>
+              <b:Date>2017-07-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>386178740.72</c:LocalValue>
+                <c:Value>386178740.72</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>2</b:ContractsSubmitted>
+              <b:Date>2017-06-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>24867326.32</c:LocalValue>
+                <c:Value>24867326.32</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>2</b:ContractsSubmitted>
+              <b:Date>2017-05-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>26506606.02</c:LocalValue>
+                <c:Value>26506606.02</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>1</b:ContractsSubmitted>
+              <b:Date>2017-04-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2017-03-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2017-02-28T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2017-01-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2016-12-31T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+            <b:PaymentCalendar>
+              <b:ContractsSubmitted>0</b:ContractsSubmitted>
+              <b:Date>2016-11-30T00:00:00</b:Date>
+              <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+              <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:PastDueDays i:nil="true" />
+            </b:PaymentCalendar>
+          </b:PaymentCalendarList>
+          <b:SectorInfoList>
+            <b:SectorInfo>
+              <b:DebtorClosedContracts>0</b:DebtorClosedContracts>
+              <b:DebtorOpenContracts>2</b:DebtorOpenContracts>
+              <b:DebtorOutstandingAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>346407018.54</c:LocalValue>
+                <c:Value>346407018.54</c:Value>
+              </b:DebtorOutstandingAmountSum>
+              <b:DebtorPastDueAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:DebtorPastDueAmountSum>
+              <b:DebtorTotalAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>370000000.00</c:LocalValue>
+                <c:Value>370000000.00</c:Value>
+              </b:DebtorTotalAmountSum>
+              <b:GuarantorClosedContracts>0</b:GuarantorClosedContracts>
+              <b:GuarantorOpenContracts>0</b:GuarantorOpenContracts>
+              <b:GuarantorOutstandingAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorPastDueAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorTotalAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Sector>Banks</b:Sector>
+            </b:SectorInfo>
+            <b:SectorInfo>
+              <b:DebtorClosedContracts>0</b:DebtorClosedContracts>
+              <b:DebtorOpenContracts>1</b:DebtorOpenContracts>
+              <b:DebtorOutstandingAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>13857281.48</c:LocalValue>
+                <c:Value>13857281.48</c:Value>
+              </b:DebtorOutstandingAmountSum>
+              <b:DebtorPastDueAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:DebtorPastDueAmountSum>
+              <b:DebtorTotalAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:DebtorTotalAmountSum>
+              <b:GuarantorClosedContracts>0</b:GuarantorClosedContracts>
+              <b:GuarantorOpenContracts>0</b:GuarantorOpenContracts>
+              <b:GuarantorOutstandingAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorPastDueAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorTotalAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+            </b:SectorInfo>
+            <b:SectorInfo>
+              <b:DebtorClosedContracts>1</b:DebtorClosedContracts>
+              <b:DebtorOpenContracts>0</b:DebtorOpenContracts>
+              <b:DebtorOutstandingAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:DebtorPastDueAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:DebtorTotalAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorClosedContracts>0</b:GuarantorClosedContracts>
+              <b:GuarantorOpenContracts>0</b:GuarantorOpenContracts>
+              <b:GuarantorOutstandingAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorPastDueAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:GuarantorTotalAmountSum i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Sector>Pawnshop</b:Sector>
+            </b:SectorInfo>
+          </b:SectorInfoList>
+        </a:ContractSummary>
+        <a:Contracts xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Contracts">
+          <b:ContractList>
+            <b:Contract>
+              <b:BankBeneficiary i:nil="true" />
+              <b:Branch i:nil="true" />
+              <b:CollateralsList>
+                <b:Collateral>
+                  <b:AppraisalValue xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>1000000.00</c:LocalValue>
+                    <c:Value>1000000.00</c:Value>
+                  </b:AppraisalValue>
+                  <b:BankValuationDate>2018-09-05T00:00:00</b:BankValuationDate>
+                  <b:BankValue i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:Branch i:nil="true" />
+                  <b:CollateralAcceptanceDate>2018-09-03T00:00:00</b:CollateralAcceptanceDate>
+                  <b:CollateralAppraisalAuthority>AA</b:CollateralAppraisalAuthority>
+                  <b:CollateralCode>COL20180928</b:CollateralCode>
+                  <b:CollateralDescription i:nil="true" />
+                  <b:CollateralOwnerName>Abimanyu</b:CollateralOwnerName>
+                  <b:CollateralRating>AA</b:CollateralRating>
+                  <b:CollateralStatus>Indent</b:CollateralStatus>
+                  <b:CollateralType>NonCashFixedAsset</b:CollateralType>
+                  <b:CollateralValue xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>10000000.00</c:LocalValue>
+                    <c:Value>10000000.00</c:Value>
+                  </b:CollateralValue>
+                  <b:HasMultipleCollaterals>No</b:HasMultipleCollaterals>
+                  <b:Insurance>Insured</b:Insurance>
+                  <b:IsShared>No</b:IsShared>
+                  <b:MainAddressAddressLine>Jalan Warung Buncit 2 Jakarta</b:MainAddressAddressLine>
+                  <b:MainAddressCity i:nil="true" />
+                  <b:MainAddressStreet i:nil="true" />
+                  <b:ProofOfOwnership i:nil="true" />
+                  <b:RatingAuthority>Fitch</b:RatingAuthority>
+                  <b:SecurityAssignmentType>Mortgage</b:SecurityAssignmentType>
+                  <b:SharedPortion i:nil="true" />
+                  <b:ValuationDate>2018-09-12T00:00:00</b:ValuationDate>
+                </b:Collateral>
+                <b:Collateral>
+                  <b:AppraisalValue xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>10000000.00</c:LocalValue>
+                    <c:Value>10000000.00</c:Value>
+                  </b:AppraisalValue>
+                  <b:BankValuationDate>2018-09-25T00:00:00</b:BankValuationDate>
+                  <b:BankValue i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:Branch i:nil="true" />
+                  <b:CollateralAcceptanceDate>2018-09-18T00:00:00</b:CollateralAcceptanceDate>
+                  <b:CollateralAppraisalAuthority>A-</b:CollateralAppraisalAuthority>
+                  <b:CollateralCode>COL20180929</b:CollateralCode>
+                  <b:CollateralDescription>Contoh kedua</b:CollateralDescription>
+                  <b:CollateralOwnerName>Didin</b:CollateralOwnerName>
+                  <b:CollateralRating>A-</b:CollateralRating>
+                  <b:CollateralStatus>Available</b:CollateralStatus>
+                  <b:CollateralType>Inventory</b:CollateralType>
+                  <b:CollateralValue xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>15000000.00</c:LocalValue>
+                    <c:Value>15000000.00</c:Value>
+                  </b:CollateralValue>
+                  <b:HasMultipleCollaterals>No</b:HasMultipleCollaterals>
+                  <b:Insurance>Insured</b:Insurance>
+                  <b:IsShared>No</b:IsShared>
+                  <b:MainAddressAddressLine i:nil="true" />
+                  <b:MainAddressCity i:nil="true" />
+                  <b:MainAddressStreet i:nil="true" />
+                  <b:ProofOfOwnership i:nil="true" />
+                  <b:RatingAuthority>Pefindo</b:RatingAuthority>
+                  <b:SecurityAssignmentType>NotContracted</b:SecurityAssignmentType>
+                  <b:SharedPortion>10.00</b:SharedPortion>
+                  <b:ValuationDate>2018-09-25T00:00:00</b:ValuationDate>
+                </b:Collateral>
+              </b:CollateralsList>
+              <b:ConditionDate i:nil="true" />
+              <b:ContractCode>***4571</b:ContractCode>
+              <b:ContractCurrency>IDR</b:ContractCurrency>
+              <b:ContractStatus>GrantedAndActivated</b:ContractStatus>
+              <b:ContractSubtype>CreditCard</b:ContractSubtype>
+              <b:ContractType>CreditCard</b:ContractType>
+              <b:CreditCharacteristics>Other</b:CreditCharacteristics>
+              <b:CreditClassification>OtherMediumEnt</b:CreditClassification>
+              <b:CreditUsageInLast30Days i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Creditor>PT. Bank PBK Indonesia</b:Creditor>
+              <b:CreditorType>Banks</b:CreditorType>
+              <b:DefaultDate i:nil="true" />
+              <b:DefaultReason>NotSpecified</b:DefaultReason>
+              <b:DefaultReasonDescription i:nil="true" />
+              <b:DelinquencyDate>2018-09-18T00:00:00</b:DelinquencyDate>
+              <b:Description i:nil="true" />
+              <b:DisbursementDate i:nil="true" />
+              <b:Disputes>
+                <b:ClosedDisputes>0</b:ClosedDisputes>
+                <b:DisputeList />
+                <b:FalseDisputes>0</b:FalseDisputes>
+              </b:Disputes>
+              <b:EconomicSector>ID_0000</b:EconomicSector>
+              <b:GovernmentProgram>NonGovernment</b:GovernmentProgram>
+              <b:GuarantyDeposit i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:InitialAgreementDate>2016-11-30T00:00:00</b:InitialAgreementDate>
+              <b:InitialAgreementNumber>BY0978674571</b:InitialAgreementNumber>
+              <b:InitialInterestRate i:nil="true" />
+              <b:InitialInterestRateType>NotSpecified</b:InitialInterestRateType>
+              <b:InitialRestructuringDate>2018-09-17T00:00:00</b:InitialRestructuringDate>
+              <b:InitialTotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:InitialTotalAmount>
+              <b:InterestArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:InterestArrears>
+              <b:InterestArrearsFrequency i:nil="true" />
+              <b:LastAgreementDate i:nil="true" />
+              <b:LastAgreementNumber i:nil="true" />
+              <b:LastDelinquency90PlusDays i:nil="true" />
+              <b:LastInterestRate>2.590</b:LastInterestRate>
+              <b:LastInterestRateType>Fixed</b:LastInterestRateType>
+              <b:LastUpdate>2018-04-15T00:00:00</b:LastUpdate>
+              <b:MaturityDate>2020-11-30T00:00:00</b:MaturityDate>
+              <b:NameOfInsured i:nil="true" />
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OrientationOfUse>Other</b:OrientationOfUse>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>8390356.00</c:LocalValue>
+                <c:Value>8390356.00</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PastDueInterest xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueInterest>
+              <b:PaymentCalendarList>
+                <b:CalendarItem>
+                  <b:Date>2018-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate>2.590</b:InterestRate>
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>8390356.00</c:LocalValue>
+                    <c:Value>8390356.00</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>8820729.88</c:LocalValue>
+                    <c:Value>8820729.88</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>9242804.07</c:LocalValue>
+                    <c:Value>9242804.07</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>9663126.91</c:LocalValue>
+                    <c:Value>9663126.91</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>10081705.67</c:LocalValue>
+                    <c:Value>10081705.67</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>10913659.88</c:LocalValue>
+                    <c:Value>10913659.88</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>11327049.71</c:LocalValue>
+                    <c:Value>11327049.71</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>12148690.56</c:LocalValue>
+                    <c:Value>12148690.56</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>12556955.78</c:LocalValue>
+                    <c:Value>12556955.78</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>12963526.95</c:LocalValue>
+                    <c:Value>12963526.95</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+              </b:PaymentCalendarList>
+              <b:Penalty xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:Penalty>
+              <b:PhaseOfContract>Open</b:PhaseOfContract>
+              <b:PrincipalArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PrincipalArrears>
+              <b:PrincipalArrearsFrequency>0</b:PrincipalArrearsFrequency>
+              <b:PrincipalBalance xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>8390356.00</c:LocalValue>
+                <c:Value>8390356.00</c:Value>
+              </b:PrincipalBalance>
+              <b:ProjectLocation i:nil="true" />
+              <b:ProjectValue i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:ProlongationCounter>20</b:ProlongationCounter>
+              <b:PurposeOfFinancing>Other</b:PurposeOfFinancing>
+              <b:RealEndDate i:nil="true" />
+              <b:RelatedSubjectsList>
+                <b:RelatedSubject>
+                  <b:ExpectedEndDate i:nil="true" />
+                  <b:GuarancyDescription i:nil="true" />
+                  <b:GuaranteeAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:JointAccountSequence>1</b:JointAccountSequence>
+                  <b:Name>Firman Hutapea</b:Name>
+                  <b:NationalID>337020920090920001</b:NationalID>
+                  <b:PassportNumber i:nil="true" />
+                  <b:RealEndDate i:nil="true" />
+                  <b:RegistrationNumber i:nil="true" />
+                  <b:RoleOfClient>Guarantor</b:RoleOfClient>
+                  <b:StartDate i:nil="true" />
+                  <b:SubjectType>Individual</b:SubjectType>
+                  <b:TaxNumber>1928301229310980</b:TaxNumber>
+                </b:RelatedSubject>
+              </b:RelatedSubjectsList>
+              <b:RestructuredCount i:nil="true" />
+              <b:RestructuringDate>2018-09-24T00:00:00</b:RestructuringDate>
+              <b:RestructuringReason>ExtendingPeriod</b:RestructuringReason>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:StartDate>2016-11-30T00:00:00</b:StartDate>
+              <b:SyndicatedLoan>No</b:SyndicatedLoan>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TotalFacilityAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:TotalFacilityAmount>
+              <b:TotalTakenAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalTakenAmount>
+              <b:WorstPastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:WorstPastDueAmount>
+              <b:WorstPastDueDays>0</b:WorstPastDueDays>
+            </b:Contract>
+            <b:Contract>
+              <b:BankBeneficiary i:nil="true" />
+              <b:Branch i:nil="true" />
+              <b:CollateralsList />
+              <b:ConditionDate i:nil="true" />
+              <b:ContractCode>XXI123222169</b:ContractCode>
+              <b:ContractCurrency>IDR</b:ContractCurrency>
+              <b:ContractStatus>GrantedAndActivated</b:ContractStatus>
+              <b:ContractSubtype>NotSpecified</b:ContractSubtype>
+              <b:ContractType>OtherWithLoanAgreement</b:ContractType>
+              <b:CreditCharacteristics>NotSpecified</b:CreditCharacteristics>
+              <b:CreditClassification>NotSpecified</b:CreditClassification>
+              <b:CreditUsageInLast30Days i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Creditor>PT. Bank Gringotts Indonesia</b:Creditor>
+              <b:CreditorType>Banks</b:CreditorType>
+              <b:DefaultDate i:nil="true" />
+              <b:DefaultReason>NotSpecified</b:DefaultReason>
+              <b:DefaultReasonDescription i:nil="true" />
+              <b:DelinquencyDate i:nil="true" />
+              <b:Description i:nil="true" />
+              <b:DisbursementDate>2017-07-11T00:00:00</b:DisbursementDate>
+              <b:Disputes>
+                <b:ClosedDisputes>0</b:ClosedDisputes>
+                <b:DisputeList />
+                <b:FalseDisputes>0</b:FalseDisputes>
+              </b:Disputes>
+              <b:EconomicSector>ID_0000</b:EconomicSector>
+              <b:GovernmentProgram>NotSpecified</b:GovernmentProgram>
+              <b:GuarantyDeposit i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:InitialAgreementDate>2017-07-11T00:00:00</b:InitialAgreementDate>
+              <b:InitialAgreementNumber>XXI123222169</b:InitialAgreementNumber>
+              <b:InitialInterestRate i:nil="true" />
+              <b:InitialInterestRateType>NotSpecified</b:InitialInterestRateType>
+              <b:InitialRestructuringDate i:nil="true" />
+              <b:InitialTotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>350000000.00</c:LocalValue>
+                <c:Value>350000000.00</c:Value>
+              </b:InitialTotalAmount>
+              <b:InterestArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:InterestArrears>
+              <b:InterestArrearsFrequency i:nil="true" />
+              <b:LastAgreementDate i:nil="true" />
+              <b:LastAgreementNumber i:nil="true" />
+              <b:LastDelinquency90PlusDays i:nil="true" />
+              <b:LastInterestRate i:nil="true" />
+              <b:LastInterestRateType>NotSpecified</b:LastInterestRateType>
+              <b:LastUpdate>2018-04-30T00:00:00</b:LastUpdate>
+              <b:MaturityDate>2032-07-11T00:00:00</b:MaturityDate>
+              <b:NameOfInsured i:nil="true" />
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OrientationOfUse>NotSpecified</b:OrientationOfUse>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>338016662.54</c:LocalValue>
+                <c:Value>338016662.54</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PastDueInterest xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueInterest>
+              <b:PaymentCalendarList>
+                <b:CalendarItem>
+                  <b:Date>2018-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>338016662.54</c:LocalValue>
+                    <c:Value>338016662.54</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>339370396.91</c:LocalValue>
+                    <c:Value>339370396.91</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>340718514.12</c:LocalValue>
+                    <c:Value>340718514.12</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>342061037.49</c:LocalValue>
+                    <c:Value>342061037.49</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>343397990.22</c:LocalValue>
+                    <c:Value>343397990.22</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>344729395.43</c:LocalValue>
+                    <c:Value>344729395.43</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>346055276.14</c:LocalValue>
+                    <c:Value>346055276.14</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>347375655.27</c:LocalValue>
+                    <c:Value>347375655.27</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>348690555.64</c:LocalValue>
+                    <c:Value>348690555.64</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>350000000.00</c:LocalValue>
+                    <c:Value>350000000.00</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+              </b:PaymentCalendarList>
+              <b:Penalty xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:Penalty>
+              <b:PhaseOfContract>Open</b:PhaseOfContract>
+              <b:PrincipalArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PrincipalArrears>
+              <b:PrincipalArrearsFrequency>0</b:PrincipalArrearsFrequency>
+              <b:PrincipalBalance xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>338016662.54</c:LocalValue>
+                <c:Value>338016662.54</c:Value>
+              </b:PrincipalBalance>
+              <b:ProjectLocation i:nil="true" />
+              <b:ProjectValue i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:ProlongationCounter i:nil="true" />
+              <b:PurposeOfFinancing>MortgageAbove70SQM</b:PurposeOfFinancing>
+              <b:RealEndDate i:nil="true" />
+              <b:RelatedSubjectsList />
+              <b:RestructuredCount i:nil="true" />
+              <b:RestructuringDate i:nil="true" />
+              <b:RestructuringReason>NotSpecified</b:RestructuringReason>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:StartDate>2017-07-11T00:00:00</b:StartDate>
+              <b:SyndicatedLoan>No</b:SyndicatedLoan>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>350000000.00</c:LocalValue>
+                <c:Value>350000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TotalFacilityAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>350000000.00</c:LocalValue>
+                <c:Value>350000000.00</c:Value>
+              </b:TotalFacilityAmount>
+              <b:TotalTakenAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>350000000.00</c:LocalValue>
+                <c:Value>350000000.00</c:Value>
+              </b:TotalTakenAmount>
+              <b:WorstPastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:WorstPastDueAmount>
+              <b:WorstPastDueDays>0</b:WorstPastDueDays>
+            </b:Contract>
+            <b:Contract>
+              <b:BankBeneficiary i:nil="true" />
+              <b:Branch i:nil="true" />
+              <b:CollateralsList />
+              <b:ConditionDate i:nil="true" />
+              <b:ContractCode>01PYR01273BB</b:ContractCode>
+              <b:ContractCurrency>IDR</b:ContractCurrency>
+              <b:ContractStatus>GrantedAndActivated</b:ContractStatus>
+              <b:ContractSubtype>NotSpecified</b:ContractSubtype>
+              <b:ContractType>OtherWithLoanAgreement</b:ContractType>
+              <b:CreditCharacteristics>NotSpecified</b:CreditCharacteristics>
+              <b:CreditClassification>NotSpecified</b:CreditClassification>
+              <b:CreditUsageInLast30Days i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Creditor>PT. Weasley Finance Indonesia</b:Creditor>
+              <b:CreditorType>NonBankingFinancialInstitutions</b:CreditorType>
+              <b:DefaultDate i:nil="true" />
+              <b:DefaultReason>NotSpecified</b:DefaultReason>
+              <b:DefaultReasonDescription i:nil="true" />
+              <b:DelinquencyDate i:nil="true" />
+              <b:Description i:nil="true" />
+              <b:DisbursementDate>2017-04-11T00:00:00</b:DisbursementDate>
+              <b:Disputes>
+                <b:ClosedDisputes>0</b:ClosedDisputes>
+                <b:DisputeList />
+                <b:FalseDisputes>0</b:FalseDisputes>
+              </b:Disputes>
+              <b:EconomicSector>ID_9963</b:EconomicSector>
+              <b:GovernmentProgram>NotSpecified</b:GovernmentProgram>
+              <b:GuarantyDeposit i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:InitialAgreementDate>2017-04-11T00:00:00</b:InitialAgreementDate>
+              <b:InitialAgreementNumber>01PYR01273BB</b:InitialAgreementNumber>
+              <b:InitialInterestRate i:nil="true" />
+              <b:InitialInterestRateType>NotSpecified</b:InitialInterestRateType>
+              <b:InitialRestructuringDate i:nil="true" />
+              <b:InitialTotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:InitialTotalAmount>
+              <b:InterestArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:InterestArrears>
+              <b:InterestArrearsFrequency i:nil="true" />
+              <b:LastAgreementDate i:nil="true" />
+              <b:LastAgreementNumber i:nil="true" />
+              <b:LastDelinquency90PlusDays i:nil="true" />
+              <b:LastInterestRate i:nil="true" />
+              <b:LastInterestRateType>NotSpecified</b:LastInterestRateType>
+              <b:LastUpdate>2018-04-30T00:00:00</b:LastUpdate>
+              <b:MaturityDate>2020-04-11T00:00:00</b:MaturityDate>
+              <b:NameOfInsured i:nil="true" />
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OrientationOfUse>NotSpecified</b:OrientationOfUse>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>13857281.48</c:LocalValue>
+                <c:Value>13857281.48</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PastDueInterest xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueInterest>
+              <b:PaymentCalendarList>
+                <b:CalendarItem>
+                  <b:Date>2018-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>13857281.48</c:LocalValue>
+                    <c:Value>13857281.48</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>14388088.20</c:LocalValue>
+                    <c:Value>14388088.20</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>14915379.65</c:LocalValue>
+                    <c:Value>14915379.65</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2018-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>15439179.10</c:LocalValue>
+                    <c:Value>15439179.10</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>15959509.68</c:LocalValue>
+                    <c:Value>15959509.68</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>16476394.36</c:LocalValue>
+                    <c:Value>16476394.36</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>16989855.96</c:LocalValue>
+                    <c:Value>16989855.96</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>17499917.16</c:LocalValue>
+                    <c:Value>17499917.16</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>18006600.47</c:LocalValue>
+                    <c:Value>18006600.47</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>18509928.26</c:LocalValue>
+                    <c:Value>18509928.26</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>19009922.75</c:LocalValue>
+                    <c:Value>19009922.75</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>19506606.02</c:LocalValue>
+                    <c:Value>19506606.02</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>20000000.00</c:LocalValue>
+                    <c:Value>20000000.00</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+              </b:PaymentCalendarList>
+              <b:Penalty xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:Penalty>
+              <b:PhaseOfContract>Open</b:PhaseOfContract>
+              <b:PrincipalArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PrincipalArrears>
+              <b:PrincipalArrearsFrequency>0</b:PrincipalArrearsFrequency>
+              <b:PrincipalBalance xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>13857281.48</c:LocalValue>
+                <c:Value>13857281.48</c:Value>
+              </b:PrincipalBalance>
+              <b:ProjectLocation i:nil="true" />
+              <b:ProjectValue i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:ProlongationCounter i:nil="true" />
+              <b:PurposeOfFinancing>OtherConsumerCredit</b:PurposeOfFinancing>
+              <b:RealEndDate i:nil="true" />
+              <b:RelatedSubjectsList />
+              <b:RestructuredCount i:nil="true" />
+              <b:RestructuringDate i:nil="true" />
+              <b:RestructuringReason>NotSpecified</b:RestructuringReason>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:StartDate>2017-04-11T00:00:00</b:StartDate>
+              <b:SyndicatedLoan>No</b:SyndicatedLoan>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TotalFacilityAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalFacilityAmount>
+              <b:TotalTakenAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>20000000.00</c:LocalValue>
+                <c:Value>20000000.00</c:Value>
+              </b:TotalTakenAmount>
+              <b:WorstPastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:WorstPastDueAmount>
+              <b:WorstPastDueDays>0</b:WorstPastDueDays>
+            </b:Contract>
+            <b:Contract>
+              <b:BankBeneficiary i:nil="true" />
+              <b:Branch i:nil="true" />
+              <b:CollateralsList />
+              <b:ConditionDate i:nil="true" />
+              <b:ContractCode>SYA43289700</b:ContractCode>
+              <b:ContractCurrency>IDR</b:ContractCurrency>
+              <b:ContractStatus>Settled</b:ContractStatus>
+              <b:ContractSubtype>NotSpecified</b:ContractSubtype>
+              <b:ContractType>ConsumerCredit</b:ContractType>
+              <b:CreditCharacteristics>NotSpecified</b:CreditCharacteristics>
+              <b:CreditClassification>NotSpecified</b:CreditClassification>
+              <b:CreditUsageInLast30Days i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:Creditor>PT. Gadai OK Indonesia</b:Creditor>
+              <b:CreditorType>Pawnshop</b:CreditorType>
+              <b:DefaultDate i:nil="true" />
+              <b:DefaultReason>NotSpecified</b:DefaultReason>
+              <b:DefaultReasonDescription i:nil="true" />
+              <b:DelinquencyDate i:nil="true" />
+              <b:Description i:nil="true" />
+              <b:DisbursementDate>2017-05-11T00:00:00</b:DisbursementDate>
+              <b:Disputes>
+                <b:ClosedDisputes>0</b:ClosedDisputes>
+                <b:DisputeList />
+                <b:FalseDisputes>0</b:FalseDisputes>
+              </b:Disputes>
+              <b:EconomicSector>ID_0000</b:EconomicSector>
+              <b:GovernmentProgram>NotSpecified</b:GovernmentProgram>
+              <b:GuarantyDeposit i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:InitialAgreementDate>2017-05-11T00:00:00</b:InitialAgreementDate>
+              <b:InitialAgreementNumber>SYA43289700</b:InitialAgreementNumber>
+              <b:InitialInterestRate i:nil="true" />
+              <b:InitialInterestRateType>NotSpecified</b:InitialInterestRateType>
+              <b:InitialRestructuringDate i:nil="true" />
+              <b:InitialTotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>7000000.00</c:LocalValue>
+                <c:Value>7000000.00</c:Value>
+              </b:InitialTotalAmount>
+              <b:InterestArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:InterestArrears>
+              <b:InterestArrearsFrequency i:nil="true" />
+              <b:LastAgreementDate i:nil="true" />
+              <b:LastAgreementNumber i:nil="true" />
+              <b:LastDelinquency90PlusDays i:nil="true" />
+              <b:LastInterestRate i:nil="true" />
+              <b:LastInterestRateType>NotSpecified</b:LastInterestRateType>
+              <b:LastUpdate>2017-11-30T00:00:00</b:LastUpdate>
+              <b:MaturityDate>2017-11-11T00:00:00</b:MaturityDate>
+              <b:NameOfInsured i:nil="true" />
+              <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+              <b:OrientationOfUse>NotSpecified</b:OrientationOfUse>
+              <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:OutstandingAmount>
+              <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueAmount>
+              <b:PastDueDays>0</b:PastDueDays>
+              <b:PastDueInterest xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PastDueInterest>
+              <b:PaymentCalendarList>
+                <b:CalendarItem>
+                  <b:Date>2017-11-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-10-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>1191004.71</c:LocalValue>
+                    <c:Value>1191004.71</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-09-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>2372166.42</c:LocalValue>
+                    <c:Value>2372166.42</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-08-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>3543566.46</c:LocalValue>
+                    <c:Value>3543566.46</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-07-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>4705285.51</c:LocalValue>
+                    <c:Value>4705285.51</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-06-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>5857403.57</c:LocalValue>
+                    <c:Value>5857403.57</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-05-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>Ok</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NoNegativeStatus</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>7000000.00</c:LocalValue>
+                    <c:Value>7000000.00</c:Value>
+                  </b:OutstandingAmount>
+                  <b:PastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                    <c:Currency>IDR</c:Currency>
+                    <c:LocalValue>0.00</c:LocalValue>
+                    <c:Value>0.00</c:Value>
+                  </b:PastDueAmount>
+                  <b:PastDueDays>0</b:PastDueDays>
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-04-30T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-03-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-02-28T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2017-01-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+                <b:CalendarItem>
+                  <b:Date>2016-12-31T00:00:00</b:Date>
+                  <b:DelinquencyStatus>NotAvailable</b:DelinquencyStatus>
+                  <b:InterestRate i:nil="true" />
+                  <b:NegativeStatusOfContract>NotSpecified</b:NegativeStatusOfContract>
+                  <b:OutstandingAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueAmount i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+                  <b:PastDueDays i:nil="true" />
+                </b:CalendarItem>
+              </b:PaymentCalendarList>
+              <b:Penalty xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:Penalty>
+              <b:PhaseOfContract>Closed</b:PhaseOfContract>
+              <b:PrincipalArrears xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PrincipalArrears>
+              <b:PrincipalArrearsFrequency>0</b:PrincipalArrearsFrequency>
+              <b:PrincipalBalance xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:PrincipalBalance>
+              <b:ProjectLocation i:nil="true" />
+              <b:ProjectValue i:nil="true" xmlns:c="http://creditinfo.com/CB5/Common" />
+              <b:ProlongationCounter i:nil="true" />
+              <b:PurposeOfFinancing>OtherConsumerCredit</b:PurposeOfFinancing>
+              <b:RealEndDate>2017-11-14T00:00:00</b:RealEndDate>
+              <b:RelatedSubjectsList />
+              <b:RestructuredCount i:nil="true" />
+              <b:RestructuringDate i:nil="true" />
+              <b:RestructuringReason>NotSpecified</b:RestructuringReason>
+              <b:RoleOfClient>MainDebtor</b:RoleOfClient>
+              <b:StartDate>2017-05-11T00:00:00</b:StartDate>
+              <b:SyndicatedLoan>No</b:SyndicatedLoan>
+              <b:TotalAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>7000000.00</c:LocalValue>
+                <c:Value>7000000.00</c:Value>
+              </b:TotalAmount>
+              <b:TotalFacilityAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>7000000.00</c:LocalValue>
+                <c:Value>7000000.00</c:Value>
+              </b:TotalFacilityAmount>
+              <b:TotalTakenAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>7000000.00</c:LocalValue>
+                <c:Value>7000000.00</c:Value>
+              </b:TotalTakenAmount>
+              <b:WorstPastDueAmount xmlns:c="http://creditinfo.com/CB5/Common">
+                <c:Currency>IDR</c:Currency>
+                <c:LocalValue>0.00</c:LocalValue>
+                <c:Value>0.00</c:Value>
+              </b:WorstPastDueAmount>
+              <b:WorstPastDueDays>0</b:WorstPastDueDays>
+            </b:Contract>
+          </b:ContractList>
+        </a:Contracts>
+        <a:CurrentRelations xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations">
+          <b:ContractRelationList>
+            <b:ContractRelation>
+              <b:Contact xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/ContRel">
+                <c:FixedLine i:nil="true" />
+                <c:MobilePhone>12321421421</c:MobilePhone>
+              </b:Contact>
+              <b:CreditinfoId>40028923</b:CreditinfoId>
+              <b:FullName>Firman Hutapea</b:FullName>
+              <b:IDNumber>337020920090920001</b:IDNumber>
+              <b:IDNumberType>KTP</b:IDNumberType>
+              <b:MainAddress xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/ContRel">
+                <c:AddressLine>Jalan Condet Raya no 11 Jakarta</c:AddressLine>
+                <c:City i:nil="true" />
+                <c:Country>NotSpecified</c:Country>
+                <c:District i:nil="true" />
+                <c:Parish i:nil="true" />
+                <c:PostalCode i:nil="true" />
+                <c:Street i:nil="true" />
+              </b:MainAddress>
+              <b:RoleOfCustomer>Guarantor</b:RoleOfCustomer>
+              <b:SubjectType>Individual</b:SubjectType>
+              <b:ValidFrom>2018-04-15T00:00:00</b:ValidFrom>
+            </b:ContractRelation>
+          </b:ContractRelationList>
+          <b:InvolvementList />
+          <b:RelatedPartyList>
+            <b:RelatedParty>
+              <b:Contact xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/RelPar">
+                <c:FixedLine i:nil="true" />
+                <c:MobilePhone i:nil="true" />
+              </b:Contact>
+              <b:CreditinfoId>0</b:CreditinfoId>
+              <b:FullName>Silfie A</b:FullName>
+              <b:Gender>Female</b:Gender>
+              <b:IDNumber>337082099018001</b:IDNumber>
+              <b:IDNumberType>KTP</b:IDNumberType>
+              <b:LTV i:nil="true" />
+              <b:MainAddress xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/RelPar">
+                <c:AddressLine>Jalan Pertanian 2 Bandung</c:AddressLine>
+                <c:City i:nil="true" />
+                <c:Country>NotSpecified</c:Country>
+                <c:District i:nil="true" />
+                <c:Parish i:nil="true" />
+                <c:PostalCode i:nil="true" />
+                <c:Street i:nil="true" />
+              </b:MainAddress>
+              <b:OwnershipShare>2000000.00</b:OwnershipShare>
+              <b:Procura>
+                <b:ProcuraRecordNumber i:nil="true" />
+                <b:RegistrationDate i:nil="true" />
+                <b:TerminationDate i:nil="true" />
+              </b:Procura>
+              <b:SubjectStatus>Active</b:SubjectStatus>
+              <b:SubjectType>Individual</b:SubjectType>
+              <b:TypeOfRelation>OwnerCEO</b:TypeOfRelation>
+              <b:ValidFrom>2018-04-15T00:00:00</b:ValidFrom>
+            </b:RelatedParty>
+            <b:RelatedParty>
+              <b:Contact xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/RelPar">
+                <c:FixedLine i:nil="true" />
+                <c:MobilePhone>08299092000910</c:MobilePhone>
+              </b:Contact>
+              <b:CreditinfoId>71612266</b:CreditinfoId>
+              <b:FullName>Andy firmansah</b:FullName>
+              <b:Gender>Male</b:Gender>
+              <b:IDNumber>3114050501850036</b:IDNumber>
+              <b:IDNumberType>KTP</b:IDNumberType>
+              <b:LTV i:nil="true" />
+              <b:MainAddress xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/RelPar">
+                <c:AddressLine>Jl. Melati no. 15 rt 07/09 Jakarta</c:AddressLine>
+                <c:City i:nil="true" />
+                <c:Country>NotSpecified</c:Country>
+                <c:District i:nil="true" />
+                <c:Parish i:nil="true" />
+                <c:PostalCode i:nil="true" />
+                <c:Street i:nil="true" />
+              </b:MainAddress>
+              <b:OwnershipShare i:nil="true" />
+              <b:Procura>
+                <b:ProcuraRecordNumber i:nil="true" />
+                <b:RegistrationDate i:nil="true" />
+                <b:TerminationDate i:nil="true" />
+              </b:Procura>
+              <b:SubjectStatus>NotSpecified</b:SubjectStatus>
+              <b:SubjectType>Individual</b:SubjectType>
+              <b:TypeOfRelation>CEO</b:TypeOfRelation>
+              <b:ValidFrom>2018-04-15T00:00:00</b:ValidFrom>
+            </b:RelatedParty>
+            <b:RelatedParty>
+              <b:Contact xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/RelPar">
+                <c:FixedLine i:nil="true" />
+                <c:MobilePhone i:nil="true" />
+              </b:Contact>
+              <b:CreditinfoId>0</b:CreditinfoId>
+              <b:FullName>Dodi Sumarwan</b:FullName>
+              <b:Gender>Male</b:Gender>
+              <b:IDNumber>3957002305670003</b:IDNumber>
+              <b:IDNumberType>KTP</b:IDNumberType>
+              <b:LTV>100.00</b:LTV>
+              <b:MainAddress xmlns:c="http://creditinfo.com/CB5/v5.53/CustomReport/CurrentRelations/RelPar">
+                <c:AddressLine>Jl. Bakung no. 31 rt 10/07 Medan</c:AddressLine>
+                <c:City i:nil="true" />
+                <c:Country>NotSpecified</c:Country>
+                <c:District i:nil="true" />
+                <c:Parish i:nil="true" />
+                <c:PostalCode i:nil="true" />
+                <c:Street i:nil="true" />
+              </b:MainAddress>
+              <b:OwnershipShare i:nil="true" />
+              <b:Procura>
+                <b:ProcuraRecordNumber i:nil="true" />
+                <b:RegistrationDate i:nil="true" />
+                <b:TerminationDate i:nil="true" />
+              </b:Procura>
+              <b:SubjectStatus>NotSpecified</b:SubjectStatus>
+              <b:SubjectType>Individual</b:SubjectType>
+              <b:TypeOfRelation>Guarantor</b:TypeOfRelation>
+              <b:ValidFrom>2018-04-30T00:00:00</b:ValidFrom>
+            </b:RelatedParty>
+          </b:RelatedPartyList>
+        </a:CurrentRelations>
+        <a:Dashboard xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Dashboard">
+          <b:CIQ>
+            <b:FraudAlerts>0</b:FraudAlerts>
+            <b:FraudAlertsThirdParty>0</b:FraudAlertsThirdParty>
+          </b:CIQ>
+          <b:Collaterals>
+            <b:NumberOfCollaterals>2</b:NumberOfCollaterals>
+            <b:TotalNonCashCollateralValue xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:TotalNonCashCollateralValue>
+          </b:Collaterals>
+          <b:Disputes>
+            <b:ActiveContractDisputes>0</b:ActiveContractDisputes>
+            <b:FalseDisputes>0</b:FalseDisputes>
+            <b:NumberOfCourtRegisteredDisputes>0</b:NumberOfCourtRegisteredDisputes>
+          </b:Disputes>
+          <b:Inquiries>
+            <b:InquiriesForLast12Months>17</b:InquiriesForLast12Months>
+            <b:SubscribersInLast12Months>6</b:SubscribersInLast12Months>
+          </b:Inquiries>
+          <b:Involvements>
+            <b:NumberOfActiveInvolvements>0</b:NumberOfActiveInvolvements>
+          </b:Involvements>
+          <b:OtherLiabilities>
+            <b:NumberOfOpenAgreements>0</b:NumberOfOpenAgreements>
+          </b:OtherLiabilities>
+          <b:PaymentsProfile>
+            <b:NumberOfDifferentSubscribers>4</b:NumberOfDifferentSubscribers>
+            <b:PastDueAmountSum xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0.00</c:LocalValue>
+              <c:Value>0.00</c:Value>
+            </b:PastDueAmountSum>
+            <b:WorstPastDueDaysCurrent>0</b:WorstPastDueDaysCurrent>
+            <b:WorstPastDueDaysForLast12Months>0</b:WorstPastDueDaysForLast12Months>
+          </b:PaymentsProfile>
+          <b:Relations>
+            <b:NumberOfInvolvements>0</b:NumberOfInvolvements>
+            <b:NumberOfRelations>3</b:NumberOfRelations>
+          </b:Relations>
+          <b:Securities>
+            <b:NumberOfActiveSecurities>0</b:NumberOfActiveSecurities>
+          </b:Securities>
+        </a:Dashboard>
+        <a:Disputes xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Disputes">
+          <b:DisputeList />
+          <b:Summary>
+            <b:NumberOfActiveDisputesContracts>0</b:NumberOfActiveDisputesContracts>
+            <b:NumberOfActiveDisputesInCourt>0</b:NumberOfActiveDisputesInCourt>
+            <b:NumberOfActiveDisputesSubjectData>0</b:NumberOfActiveDisputesSubjectData>
+            <b:NumberOfClosedDisputesContracts>0</b:NumberOfClosedDisputesContracts>
+            <b:NumberOfClosedDisputesSubjectData>0</b:NumberOfClosedDisputesSubjectData>
+            <b:NumberOfFalseDisputes>0</b:NumberOfFalseDisputes>
+          </b:Summary>
+        </a:Disputes>
+        <a:Financials xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Financials">
+          <b:FinancialStatementList />
+        </a:Financials>
+        <a:Individual xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Individual">
+          <b:Contact>
+            <b:Email>andyfirmansyah@pefindo.com</b:Email>
+            <b:FixedLine i:nil="true" />
+            <b:MobilePhone>08299092000910</b:MobilePhone>
+          </b:Contact>
+          <b:General>
+            <b:Alias>Zetha</b:Alias>
+            <b:Citizenship>ID</b:Citizenship>
+            <b:ClassificationOfIndividual>Individual</b:ClassificationOfIndividual>
+            <b:DateOfBirth>1982-10-05T00:00:00</b:DateOfBirth>
+            <b:Education>Bachelor</b:Education>
+            <b:EmployerName>PT Bineka</b:EmployerName>
+            <b:EmployerSector>ID_0000</b:EmployerSector>
+            <b:Employment>Engineer</b:Employment>
+            <b:FullName>Zetha Listya Dwi Putri</b:FullName>
+            <b:FullNameLocal>Zetha Listya Dwi Putri</b:FullNameLocal>
+            <b:Gender>Male</b:Gender>
+            <b:MaritalStatus>Married</b:MaritalStatus>
+            <b:MotherMaidenName>Sainah S</b:MotherMaidenName>
+            <b:PlaceOfBirth>Medan</b:PlaceOfBirth>
+            <b:Residency>Yes</b:Residency>
+            <b:SocialStatus>Employed</b:SocialStatus>
+          </b:General>
+          <b:Identifications>
+            <b:KTP>4174070510820009</b:KTP>
+            <b:NPWP>2901928001901</b:NPWP>
+            <b:PassportIssuerCountry>ID</b:PassportIssuerCountry>
+            <b:PassportNumber>28909100909</b:PassportNumber>
+            <b:PefindoId>15354680</b:PefindoId>
+          </b:Identifications>
+          <b:MainAddress>
+            <b:AddressLine>Ki Mangun Sarkoro, DKI JakartaTT</b:AddressLine>
+            <b:City i:nil="true" />
+            <b:Country>NotSpecified</b:Country>
+            <b:District i:nil="true" />
+            <b:Parish i:nil="true" />
+            <b:PostalCode i:nil="true" />
+            <b:Street i:nil="true" />
+          </b:MainAddress>
+        </a:Individual>
+        <a:Inquiries xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Inquiries">
+          <b:InquiryList>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-08-14T17:30:48.217</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>FulfilRegulationRequirements</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-05-23T11:25:37.463</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Banks</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-05-23T10:43:44.917</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Banks</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-05-23T10:23:52.137</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Banks</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-05-23T07:32:32.383</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Banks</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-04-29T22:10:25.723</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Pawnshop</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-04-27T02:43:27.963</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Pawnshop</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-04-26T18:34:13.523</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Pawnshop</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-04-25T21:42:03.297</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Pawnshop</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-04-16T09:32:28.86</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-04-15T16:44:59.277</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>Pawnshop</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-03-13T15:42:45.297</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>ProvidingFacilities</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-01-12T15:33:23.217</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>FulfilRegulationRequirements</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2018-01-08T09:01:27.66</b:DateOfInquiry>
+              <b:Product>WS Custom Report - Creditinfo Predictor</b:Product>
+              <b:Reason>FulfilRegulationRequirements</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2017-12-21T14:26:33.6</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>FulfilRegulationRequirements</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2017-12-18T08:38:00.237</b:DateOfInquiry>
+              <b:Product>WS Creditinfo Report Plus</b:Product>
+              <b:Reason>FulfilRegulationRequirements</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+            <b:Inquiry>
+              <b:DateOfInquiry>2017-11-20T14:13:22.707</b:DateOfInquiry>
+              <b:Product>Quick Check</b:Product>
+              <b:Reason>AnotherReason</b:Reason>
+              <b:Sector>NonBankingFinancialInstitutions</b:Sector>
+              <b:SubscriberInfo />
+            </b:Inquiry>
+          </b:InquiryList>
+          <b:Summary>
+            <b:NumberOfInquiriesLast12Months>17</b:NumberOfInquiriesLast12Months>
+            <b:NumberOfInquiriesLast1Month>0</b:NumberOfInquiriesLast1Month>
+            <b:NumberOfInquiriesLast24Months>17</b:NumberOfInquiriesLast24Months>
+            <b:NumberOfInquiriesLast3Months>1</b:NumberOfInquiriesLast3Months>
+            <b:NumberOfInquiriesLast6Months>11</b:NumberOfInquiriesLast6Months>
+          </b:Summary>
+        </a:Inquiries>
+        <a:Involvements xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Involvements">
+          <b:InvolvementList />
+          <b:Summary>
+            <b:NumberOfActiveInvolvements>0</b:NumberOfActiveInvolvements>
+            <b:NumberOfPastInvolvements>0</b:NumberOfPastInvolvements>
+            <b:TotalAmountOfActiveInvolvements xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:TotalAmountOfActiveInvolvements>
+          </b:Summary>
+        </a:Involvements>
+        <a:OtherLiabilities xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/OtherLiabilities">
+          <b:OtherLiabilityList />
+          <b:Summary>
+            <b:NumberOfClosedAgreements>0</b:NumberOfClosedAgreements>
+            <b:NumberOfOpenAgreements>0</b:NumberOfOpenAgreements>
+            <b:TotalMarketValue xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:TotalMarketValue>
+            <b:TotalPrincipalArrears xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:TotalPrincipalArrears>
+          </b:Summary>
+        </a:OtherLiabilities>
+        <a:Parameters>
+          <a:Consent>true</a:Consent>
+          <a:IDNumber>71612266</a:IDNumber>
+          <a:IDNumberType>PefindoId</a:IDNumberType>
+          <a:InquiryReason>ProvidingFacilities</a:InquiryReason>
+          <a:InquiryReasonText />
+          <a:ReportDate>2018-10-01T00:00:00</a:ReportDate>
+          <a:Sections xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            <b:string>PEFINDOScore</b:string>
+          </a:Sections>
+          <a:SubjectType>Individual</a:SubjectType>
+        </a:Parameters>
+        <a:ReportInfo xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/ReportInfo">
+          <b:Created>2019-03-18T19:54:28.9883487+07:00</b:Created>
+          <b:ReferenceNumber>2177757-71612266</b:ReferenceNumber>
+          <b:ReportStatus>ReportGenerated</b:ReportStatus>
+          <b:RequestedBy>heri admin</b:RequestedBy>
+          <b:Version>553</b:Version>
+        </a:ReportInfo>
+        <a:Securities xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/Securities">
+          <b:SecurityList />
+          <b:Summary>
+            <b:NumberOfActiveSecurities>0</b:NumberOfActiveSecurities>
+            <b:NumberOfPastSecurities>0</b:NumberOfPastSecurities>
+            <b:TotalMarketValue xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:TotalMarketValue>
+            <b:TotalPrincipalArrears xmlns:c="http://creditinfo.com/CB5/Common">
+              <c:Currency>IDR</c:Currency>
+              <c:LocalValue>0</c:LocalValue>
+              <c:Value>0</c:Value>
+            </b:TotalPrincipalArrears>
+          </b:Summary>
+        </a:Securities>
+        <a:SubjectInfoHistory xmlns:b="http://creditinfo.com/CB5/v5.53/CustomReport/SubjectInfoHistory">
+          <b:AddressList>
+            <b:Address>
+              <b:Item>MainAddress</b:Item>
+              <b:Subscriber>B02</b:Subscriber>
+              <b:ValidFrom>2017-07-31T00:00:00</b:ValidFrom>
+              <b:ValidTo>2018-04-15T00:00:00</b:ValidTo>
+              <b:Value>Jl. Melati no. 15 rt 07/09 Medan</b:Value>
+            </b:Address>
+            <b:Address>
+              <b:Item>MainAddressLine</b:Item>
+              <b:Subscriber>B02</b:Subscriber>
+              <b:ValidFrom>2017-07-31T00:00:00</b:ValidFrom>
+              <b:ValidTo>2018-04-15T00:00:00</b:ValidTo>
+              <b:Value>Jl. Melati no. 15 rt 07/09 Medan</b:Value>
+            </b:Address>
+          </b:AddressList>
+          <b:ContactList>
+            <b:Contact>
+              <b:Item>MobilePhone</b:Item>
+              <b:Subscriber>B02</b:Subscriber>
+              <b:ValidFrom>2017-07-31T00:00:00</b:ValidFrom>
+              <b:ValidTo>2018-04-15T00:00:00</b:ValidTo>
+              <b:Value>0879417193</b:Value>
+            </b:Contact>
+          </b:ContactList>
+          <b:GeneralList>
+            <b:General>
+              <b:Item>MothersMaidenName</b:Item>
+              <b:Subscriber>B02</b:Subscriber>
+              <b:ValidFrom>2017-07-31T00:00:00</b:ValidFrom>
+              <b:ValidTo>2018-04-15T00:00:00</b:ValidTo>
+              <b:Value>Sainah</b:Value>
+            </b:General>
+          </b:GeneralList>
+          <b:IdentificationsList>
+            <b:Identifications>
+              <b:Item>TaxNumber</b:Item>
+              <b:Subscriber>B02</b:Subscriber>
+              <b:ValidFrom>2017-07-31T00:00:00</b:ValidFrom>
+              <b:ValidTo>2018-04-15T00:00:00</b:ValidTo>
+              <b:Value>24798106541000</b:Value>
+            </b:Identifications>
+          </b:IdentificationsList>
+        </a:SubjectInfoHistory>
+      </GetCustomReportResult>
+    </GetCustomReportResponse>
+  </s:Body>
+</s:Envelope>

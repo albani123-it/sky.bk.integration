@@ -1,0 +1,43 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+   <s:Header>
+      <o:Security s:mustUnderstand="1" xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <u:Timestamp u:Id="_0">
+            <u:Created>2019-03-18T13:06:05.282Z</u:Created>
+            <u:Expires>2019-03-18T13:11:05.282Z</u:Expires>
+         </u:Timestamp>
+      </o:Security>
+   </s:Header>
+   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <OTGetReportResponse xmlns="http://tempuri.org/">
+         <OTGetReportResult PefindoId="71612266">
+            <OtherData Source="APPI" SourceName="APPI - Penghapusbukuan Pinjaman" SourceDesc="APPI - Penghapusbukuan Pinjaman
+">
+               <Item Label="KTP">3114050501850036</Item>
+               <Item Label="NPWP">247.981.065-41.000</Item>
+               <Item Label="Nama">Andy firmansah</Item>
+               <Item Label="Tanggal Lahir">1985-01-05</Item>
+               <Item Label="Alamat">Jl. Melati no. 15 rt 07/09 Medan</Item>
+               <Item Label="Mata Uang">IDR</Item>
+               <Item Label="Jumlah Penghapusan">1.050.000</Item>
+               <Item Label="Tanggal Penghapusan">2017-06-21</Item>
+               <Item Label="Tanggal Pelaporan">2017-06-30</Item>
+               <Item Label="Tahun">2017</Item>
+               <Item Label="Bulan">11</Item>
+               <Item Label="Status">Other Information - Current</Item>
+            </OtherData>
+            <Parameters>
+               <PefindoId>71612266</PefindoId>
+               <InquiryReason>ProvidingFacilities</InquiryReason>
+               <InquiryReasonText/>
+               <SubjectType>Individual</SubjectType>
+            </Parameters>
+            <ReportInfo>
+               <ReferenceNumber xmlns="http://creditinfo.com/CB5/v5.31/CustomReport/ReportInfo">2177760-71612266</ReferenceNumber>
+               <ReportStatus xmlns="http://creditinfo.com/CB5/v5.31/CustomReport/ReportInfo">ReportGenerated</ReportStatus>
+               <RequestedBy xmlns="http://creditinfo.com/CB5/v5.31/CustomReport/ReportInfo">heri admin</RequestedBy>
+               <Version xmlns="http://creditinfo.com/CB5/v5.31/CustomReport/ReportInfo">531</Version>
+            </ReportInfo>
+         </OTGetReportResult>
+      </OTGetReportResponse>
+   </s:Body>
+</s:Envelope>

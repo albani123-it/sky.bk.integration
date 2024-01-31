@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>3kb8wZSl-SSkF-v0L3-7nI9kr0U</ns1:TrackingID>
+    <ns1:ServiceName>pfOTGetReport</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfOTGetReport-AIPRE-202103051703302809951146541652</ns1:TransactionID>
+    <ns1:RsTimestamp>2021-03-05T17:21:06.759+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfOTGetReportRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfOTGetReport/01">
+      <ns2:RqUID>pfOTGetReport-AIPRE-202103051703302809951146541652</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:OTGetReportResult>
+        <ns2:Parameters>
+          <ns2:PefindoId>92187513</ns2:PefindoId>
+          <ns2:InquiryReason>ProvidingFacilities</ns2:InquiryReason>
+          <ns2:InquiryReasonText />
+          <ns2:SubjectType>Individual</ns2:SubjectType>
+        </ns2:Parameters>
+        <ns2:ReportInfo>
+          <ns2:Created>2021-03-05T17:22:12.1617872+07:00</ns2:Created>
+          <ns2:ReferenceNumber>4363428-92187513</ns2:ReferenceNumber>
+          <ns2:ReportStatus>ReportGenerated</ns2:ReportStatus>
+          <ns2:RequestedBy>Johan Lai</ns2:RequestedBy>
+          <ns2:Version>531</ns2:Version>
+        </ns2:ReportInfo>
+      </ns2:OTGetReportResult>
+    </ns2:pfOTGetReportRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

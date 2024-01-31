@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:ServiceName>pfGetPdfReport</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:ChannelID>DL</ns1:ChannelID>
+    <ns1:TransactionID>pfGetPdfReport-AIPRE-202008132108400967341620885514</ns1:TransactionID>
+    <ns1:RqTimestamp>16/11/2018 10:02:00</ns1:RqTimestamp>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfGetPdfReportRq xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/BSMF/pfGetPdfReport/01">
+      <ns2:TxnCode>pfGetPdfReport</ns2:TxnCode>
+      <ns2:RqUID>pfGetPdfReport-AIPRE-202008132108400967341620885514</ns2:RqUID>
+      <ns2:parameters>
+        <ns2:Consent>true</ns2:Consent>
+        <ns2:IDNumber>71612266</ns2:IDNumber>
+        <ns2:IDNumberType>PefindoId</ns2:IDNumberType>
+        <ns2:InquiryReason>ProvidingFacilities</ns2:InquiryReason>
+        <ns2:InquiryReasonText />
+        <ns2:LanguageCode>id-ID</ns2:LanguageCode>
+        <ns2:ReportName>PEFINDOScore</ns2:ReportName>
+        <ns2:SubjectType>Individual</ns2:SubjectType>
+      </ns2:parameters>
+    </ns2:pfGetPdfReportRq>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

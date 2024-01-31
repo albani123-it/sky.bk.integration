@@ -1,0 +1,22 @@
+﻿{
+  "api_output_ok": "Success",
+  "api_output_not_ok": "Error/Failed",
+  "process_success": "Processed",
+  "process_not_success": "Not Processed",
+  "save_success": "Saved",
+  "save_not_success": "Not Saved",
+  "delete_success": "Deleted",
+  "delete_not_success": "Not Deleted",
+  "update_success": "Updated",
+  "update_not_success": "Not Updated",
+  "output_field_exists": "Output Field Already Exists",
+  "output_field_not_exists": "Output Field Not Exists",
+  "Not Pass": "Condition Not Passed",
+  "param_validation_success": "OK",
+  "param_validation_failed": "Failed",
+  "execdb_success": "Success",
+  "type_data_personal": "Personal",
+  "type_data_company": "Company",
+  "summary_data": "Summary Data"
+}
+

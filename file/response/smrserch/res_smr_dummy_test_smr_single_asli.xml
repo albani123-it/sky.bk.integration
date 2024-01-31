@@ -1,0 +1,31 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <SmartSearchIndividualResponse xmlns="http://creditinfo.com/CB5">
+      <SmartSearchIndividualResult xmlns:a="http://creditinfo.com/CB5/v5.31/SmartSearch" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:IndividualRecords>
+          <a:SearchIndividualRecord>
+            <a:Address>Jl. Melati no. 15 rt 07/09 Medan</a:Address>
+            <a:DateOfBirth>1985-01-05T00:00:00</a:DateOfBirth>
+            <a:FullName>Andy firmansah</a:FullName>
+            <a:KTP>3114050501850036</a:KTP>
+            <a:PefindoId>71612266</a:PefindoId>
+          </a:SearchIndividualRecord>
+        </a:IndividualRecords>
+        <a:NilReport i:nil="true" />
+        <a:Parameters>
+          <a:DateOfBirth>1985-05-01T00:00:00</a:DateOfBirth>
+          <a:FullName>Andy firmansah</a:FullName>
+          <a:IdNumbers>
+            <a:IdNumberPairIndividual>
+              <a:IdNumber>3114050501850036</a:IdNumber>
+              <a:IdNumberType>KTP</a:IdNumberType>
+            </a:IdNumberPairIndividual>
+          </a:IdNumbers>
+        </a:Parameters>
+        <a:PefindoId>71612266</a:PefindoId>
+        <a:SearchRuleApplied>NationalID</a:SearchRuleApplied>
+        <a:Status>SubjectFound</a:Status>
+      </SmartSearchIndividualResult>
+    </SmartSearchIndividualResponse>
+  </s:Body>
+</s:Envelope>

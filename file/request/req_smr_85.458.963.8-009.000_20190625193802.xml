@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cb5="http://creditinfo.com/CB5" xmlns:smar="http://creditinfo.com/CB5/v5.53/SmartSearch">
+  <soapenv:Header />
+  <soapenv:Body>
+    <cb5:SmartSearchCompany>
+      <cb5:query>
+        <smar:InquiryReason>ProvidingFacilities</smar:InquiryReason>
+        <smar:InquiryReasonText>ProvidingFacilities</smar:InquiryReasonText>
+        <smar:Parameters>
+          <smar:CompanyName>PT Banyu Inti Abadi</smar:CompanyName>
+          <smar:IdNumbers>
+            <smar:IdNumberPairCompany>
+              <smar:IdNumber>85.458.963.8-009.000</smar:IdNumber>
+              <smar:IdNumberType>NPWP</smar:IdNumberType>
+            </smar:IdNumberPairCompany>
+          </smar:IdNumbers>
+        </smar:Parameters>
+      </cb5:query>
+    </cb5:SmartSearchCompany>
+  </soapenv:Body>
+</soapenv:Envelope>

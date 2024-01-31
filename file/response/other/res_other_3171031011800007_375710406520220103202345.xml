@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>RppOfj8Sy70-m-2xMW-7n6UkjPA</ns1:TrackingID>
+    <ns1:ServiceName>pfOTGetReport</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfOTGetReport-AIPRE-20201124111115618162982900058</ns1:TransactionID>
+    <ns1:RsTimestamp>2020-11-24T11:43:53.289+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfOTGetReportRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfOTGetReport/01">
+      <ns2:RqUID>pfOTGetReport-AIPRE-20201124111115618162982900058</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:OTGetReportResult>
+        <ns2:OtherData Source="DJP" SourceName="Ditjen Pajak" SourceDesc="Ditjen Pajak - Data NPWP&#xD;&#xA;">
+          <ns2:Item Label="NPWP">479690133124000</ns2:Item>
+          <ns2:Item Label="Nama">JOHAN</ns2:Item>
+          <ns2:Item Label="Jenis Wajib Pajak">ORANG PRIBADI</ns2:Item>
+          <ns2:Item Label="Badan Hukum">-</ns2:Item>
+          <ns2:Item Label="Tempat,Tanggal Lahir">BINJAI 20-10-1983</ns2:Item>
+          <ns2:Item Label="Alamat">SUNGGAL RT.039 RW.013, SUNGGAL</ns2:Item>
+          <ns2:Item Label="Kelurahan">SUNGGAL</ns2:Item>
+          <ns2:Item Label="Kecamatan">MEDAN SUNGGAL</ns2:Item>
+          <ns2:Item Label="Kabupaten/Kota">KOTA MEDAN</ns2:Item>
+          <ns2:Item Label="Provinsi">SUMATERA UTARA</ns2:Item>
+          <ns2:Item Label="Telepon">-</ns2:Item>
+          <ns2:Item Label="Email">johanlai2010@gmail.com</ns2:Item>
+          <ns2:Item Label="Fax">-</ns2:Item>
+          <ns2:Item Label="Kode KLU">96304</ns2:Item>
+          <ns2:Item Label="KLU">PEGAWAI SWASTA</ns2:Item>
+          <ns2:Item Label="Nama KPP">PRATAMA MEDAN PETISAH</ns2:Item>
+          <ns2:Item Label="Nama Kanwil">KANTOR WILAYAH DJP SUMATERA UTARA I</ns2:Item>
+          <ns2:Item Label="Status PKP">NON PKP</ns2:Item>
+          <ns2:Item Label="Tanggal Daftar">28-08-2008</ns2:Item>
+          <ns2:Item Label="Tanggal Pengukuhan PKP">-</ns2:Item>
+          <ns2:Item Label="Tahun">2020</ns2:Item>
+          <ns2:Item Label="Bulan">11</ns2:Item>
+        </ns2:OtherData>
+        <ns2:Parameters>
+          <ns2:PefindoId>4912772777</ns2:PefindoId>
+          <ns2:InquiryReason>ProvidingFacilities</ns2:InquiryReason>
+          <ns2:InquiryReasonText />
+          <ns2:SubjectType>Individual</ns2:SubjectType>
+        </ns2:Parameters>
+        <ns2:ReportInfo>
+          <ns2:Created>2020-11-24T11:43:15.070364+07:00</ns2:Created>
+          <ns2:ReferenceNumber>152860298-4912772777</ns2:ReferenceNumber>
+          <ns2:ReportStatus>ReportGenerated</ns2:ReportStatus>
+          <ns2:RequestedBy>Web Service PT Bank CTBC Indonesia</ns2:RequestedBy>
+          <ns2:Version>531</ns2:Version>
+        </ns2:ReportInfo>
+      </ns2:OTGetReportResult>
+    </ns2:pfOTGetReportRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

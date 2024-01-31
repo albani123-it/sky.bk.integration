@@ -1,0 +1,1611 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>/JeQeUCgB30K7kvDJm-7mAhUr0U</ns1:TrackingID>
+    <ns1:ServiceName>pfGetCustomReport</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfGetCustomReport-AIPRE-202103151203368395001232465370</ns1:TransactionID>
+    <ns1:RsTimestamp>2021-03-15T12:16:43.631+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfGetCustomReportRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfGetCustomReport/01">
+      <ns2:RqUID>pfGetCustomReport-AIPRE-202103151203368395001232465370</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:GetCustomReportResult>
+        <ns2:CIP>
+          <ns2:RecordList>
+            <ns2:Record>
+              <ns2:Date>2021-03-15T00:00:00</ns2:Date>
+              <ns2:Grade>XX</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>XDAT</ns2:Code>
+                  <ns2:Description>Not enough data to calculate the score</ns2:Description>
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>999</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2021-02-28T00:00:00</ns2:Date>
+              <ns2:Grade>XX</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>XDAT</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>999</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2021-01-31T00:00:00</ns2:Date>
+              <ns2:Grade>XX</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>XDAT</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>999</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+              <ns2:Grade>XX</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>XDAT</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>999</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+              <ns2:Grade>XX</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>XDAT</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>999</ns2:Score>
+              <ns2:Trend>Up</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>NQS2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>NQS2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>NQS2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>NQS2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>AMO3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>AMO3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>BAD1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MTP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HH1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+              <ns2:Grade>E3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>100</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>BAD1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>HMP1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>MSM1</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>AMO3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>250</ns2:Score>
+              <ns2:Trend>Up</ns2:Trend>
+            </ns2:Record>
+          </ns2:RecordList>
+        </ns2:CIP>
+        <ns2:CIQ>
+          <ns2:Detail>
+            <ns2:NumberOfCancelledClosedContracts>0</ns2:NumberOfCancelledClosedContracts>
+            <ns2:NumberOfSubscribersMadeInquiriesLast14Days>0</ns2:NumberOfSubscribersMadeInquiriesLast14Days>
+            <ns2:NumberOfSubscribersMadeInquiriesLast2Days>0</ns2:NumberOfSubscribersMadeInquiriesLast2Days>
+          </ns2:Detail>
+          <ns2:Summary>
+            <ns2:NumberOfFraudAlertsPrimarySubject>0</ns2:NumberOfFraudAlertsPrimarySubject>
+            <ns2:NumberOfFraudAlertsThirdParty>0</ns2:NumberOfFraudAlertsThirdParty>
+          </ns2:Summary>
+        </ns2:CIQ>
+        <ns2:Collaterals>
+          <ns2:CollateralList />
+          <ns2:Summary>
+            <ns2:TotalValueOfCashCollaterals />
+            <ns2:TotalValueOfNonCashCollaterals />
+          </ns2:Summary>
+        </ns2:Collaterals>
+        <ns2:Company>
+          <ns2:Contact>
+            <ns2:Email />
+            <ns2:FixedLine />
+            <ns2:MobilePhone />
+          </ns2:Contact>
+          <ns2:General>
+            <ns2:CompanyName />
+            <ns2:CompanyNameLocal />
+            <ns2:EstablishmentDate />
+            <ns2:EstablishmentLocation />
+            <ns2:GroupName />
+            <ns2:Rating />
+            <ns2:RatingDate />
+          </ns2:General>
+          <ns2:Identifications>
+            <ns2:LatestDateOfDeed />
+            <ns2:LatestDeedNumber />
+            <ns2:NPWP />
+            <ns2:RegistrationNumber />
+          </ns2:Identifications>
+          <ns2:MainAddress>
+            <ns2:AddressLine />
+            <ns2:City />
+            <ns2:District />
+            <ns2:Parish />
+            <ns2:PostalCode />
+            <ns2:Street />
+          </ns2:MainAddress>
+        </ns2:Company>
+        <ns2:ContractOverview>
+          <ns2:ContractList>
+            <ns2:Contract>
+              <ns2:ContractStatus>GrantedAndActivated</ns2:ContractStatus>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>102</ns2:PastDueDays>
+              <ns2:PhaseOfContract>Open</ns2:PhaseOfContract>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+              <ns2:StartDate>2019-11-20T00:00:00</ns2:StartDate>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>600000</ns2:LocalValue>
+                <ns2:Value>600000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TypeOfContract>NonInstallment</ns2:TypeOfContract>
+            </ns2:Contract>
+          </ns2:ContractList>
+        </ns2:ContractOverview>
+        <ns2:ContractSummary>
+          <ns2:Debtor>
+            <ns2:ClosedContracts>0</ns2:ClosedContracts>
+            <ns2:OpenContracts>1</ns2:OpenContracts>
+            <ns2:OutstandingAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>722400</ns2:LocalValue>
+              <ns2:Value>722400</ns2:Value>
+            </ns2:OutstandingAmountSum>
+            <ns2:PastDueAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>722400</ns2:LocalValue>
+              <ns2:Value>722400</ns2:Value>
+            </ns2:PastDueAmountSum>
+            <ns2:TotalAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>600000</ns2:LocalValue>
+              <ns2:Value>600000</ns2:Value>
+            </ns2:TotalAmountSum>
+          </ns2:Debtor>
+          <ns2:Guarantor>
+            <ns2:ClosedContracts>0</ns2:ClosedContracts>
+            <ns2:OpenContracts>0</ns2:OpenContracts>
+            <ns2:OutstandingAmountSum />
+            <ns2:PastDueAmountSum />
+            <ns2:TotalAmountSum />
+          </ns2:Guarantor>
+          <ns2:Overall>
+            <ns2:LastDelinquency90PlusDays>2020-03-31T00:00:00</ns2:LastDelinquency90PlusDays>
+            <ns2:WorstPastDueAmount>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>722400</ns2:LocalValue>
+              <ns2:Value>722400</ns2:Value>
+            </ns2:WorstPastDueAmount>
+            <ns2:WorstPastDueDays>102</ns2:WorstPastDueDays>
+          </ns2:Overall>
+          <ns2:PaymentCalendarList>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2021-03-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2021-02-28T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2021-01-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>1</ns2:ContractsSubmitted>
+              <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>Substandard</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>102</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-12-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-11-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-10-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-09-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-08-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-07-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-06-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-05-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2019-04-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+          </ns2:PaymentCalendarList>
+          <ns2:SectorInfoList>
+            <ns2:SectorInfo>
+              <ns2:DebtorClosedContracts>0</ns2:DebtorClosedContracts>
+              <ns2:DebtorOpenContracts>1</ns2:DebtorOpenContracts>
+              <ns2:DebtorOutstandingAmountSum>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:DebtorOutstandingAmountSum>
+              <ns2:DebtorPastDueAmountSum>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:DebtorPastDueAmountSum>
+              <ns2:DebtorTotalAmountSum>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>600000</ns2:LocalValue>
+                <ns2:Value>600000</ns2:Value>
+              </ns2:DebtorTotalAmountSum>
+              <ns2:GuarantorClosedContracts>0</ns2:GuarantorClosedContracts>
+              <ns2:GuarantorOpenContracts>0</ns2:GuarantorOpenContracts>
+              <ns2:GuarantorOutstandingAmountSum />
+              <ns2:GuarantorPastDueAmountSum />
+              <ns2:GuarantorTotalAmountSum />
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:SectorInfo>
+          </ns2:SectorInfoList>
+        </ns2:ContractSummary>
+        <ns2:Contracts>
+          <ns2:ContractList>
+            <ns2:Contract>
+              <ns2:BankBeneficiary />
+              <ns2:Branch />
+              <ns2:CollateralsList />
+              <ns2:ConditionDate />
+              <ns2:ContractCode>9p8oYkRAaGggl2OOq8</ns2:ContractCode>
+              <ns2:ContractCurrency>IDR</ns2:ContractCurrency>
+              <ns2:ContractStatus>GrantedAndActivated</ns2:ContractStatus>
+              <ns2:ContractSubtype>Other</ns2:ContractSubtype>
+              <ns2:ContractType>NonInstallment</ns2:ContractType>
+              <ns2:CreditCharacteristics>NotSpecified</ns2:CreditCharacteristics>
+              <ns2:CreditClassification>NotSpecified</ns2:CreditClassification>
+              <ns2:CreditUsageInLast30Days />
+              <ns2:Creditor>PT. Digitron Solusi Indonesia (ASAKITA)</ns2:Creditor>
+              <ns2:CreditorType>NonBankingFinancialInstitutions</ns2:CreditorType>
+              <ns2:DefaultDate />
+              <ns2:DefaultReason>NotSpecified</ns2:DefaultReason>
+              <ns2:DefaultReasonDescription />
+              <ns2:DelinquencyDate>2019-12-21T00:00:00</ns2:DelinquencyDate>
+              <ns2:Description />
+              <ns2:DisbursementDate>2019-11-20T00:00:00</ns2:DisbursementDate>
+              <ns2:Disputes>
+                <ns2:ClosedDisputes>0</ns2:ClosedDisputes>
+                <ns2:DisputeList />
+                <ns2:FalseDisputes>0</ns2:FalseDisputes>
+              </ns2:Disputes>
+              <ns2:EconomicSector>NotSpecified</ns2:EconomicSector>
+              <ns2:GovernmentProgram>NotSpecified</ns2:GovernmentProgram>
+              <ns2:GuarantyDeposit />
+              <ns2:InitialAgreementDate>2019-11-20T00:00:00</ns2:InitialAgreementDate>
+              <ns2:InitialAgreementNumber />
+              <ns2:InitialInterestRate>2.49</ns2:InitialInterestRate>
+              <ns2:InitialInterestRateType>NotSpecified</ns2:InitialInterestRateType>
+              <ns2:InitialRestructuringDate />
+              <ns2:InitialTotalAmount />
+              <ns2:InterestArrears />
+              <ns2:InterestArrearsFrequency />
+              <ns2:LastAgreementDate />
+              <ns2:LastAgreementNumber />
+              <ns2:LastDelinquency90PlusDays>2020-03-31T00:00:00</ns2:LastDelinquency90PlusDays>
+              <ns2:LastInterestRate>2.49</ns2:LastInterestRate>
+              <ns2:LastInterestRateType>NotSpecified</ns2:LastInterestRateType>
+              <ns2:LastUpdate>2020-03-31T00:00:00</ns2:LastUpdate>
+              <ns2:MaturityDate>2019-12-20T00:00:00</ns2:MaturityDate>
+              <ns2:NameOfInsured />
+              <ns2:NegativeStatusOfContract>Substandard</ns2:NegativeStatusOfContract>
+              <ns2:OrientationOfUse>NotSpecified</ns2:OrientationOfUse>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>102</ns2:PastDueDays>
+              <ns2:PastDueInterest>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>122400</ns2:LocalValue>
+                <ns2:Value>122400</ns2:Value>
+              </ns2:PastDueInterest>
+              <ns2:PaymentCalendarList>
+                <ns2:CalendarItem>
+                  <ns2:Date>2021-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2021-02-28T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2021-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Default</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>2.49</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>Substandard</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>722400</ns2:LocalValue>
+                    <ns2:Value>722400</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>722400</ns2:LocalValue>
+                    <ns2:Value>722400</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>102</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+              </ns2:PaymentCalendarList>
+              <ns2:Penalty>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:Penalty>
+              <ns2:PhaseOfContract>Open</ns2:PhaseOfContract>
+              <ns2:PrincipalArrears>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>600000</ns2:LocalValue>
+                <ns2:Value>600000</ns2:Value>
+              </ns2:PrincipalArrears>
+              <ns2:PrincipalArrearsFrequency>0</ns2:PrincipalArrearsFrequency>
+              <ns2:PrincipalBalance>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>600000</ns2:LocalValue>
+                <ns2:Value>600000</ns2:Value>
+              </ns2:PrincipalBalance>
+              <ns2:ProjectLocation />
+              <ns2:ProjectValue />
+              <ns2:ProlongationCounter />
+              <ns2:PurposeOfFinancing>OtherConsumerCredit</ns2:PurposeOfFinancing>
+              <ns2:RealEndDate />
+              <ns2:RelatedSubjectsList />
+              <ns2:RestructuredCount />
+              <ns2:RestructuringDate />
+              <ns2:RestructuringReason>NotSpecified</ns2:RestructuringReason>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:StartDate>2019-11-20T00:00:00</ns2:StartDate>
+              <ns2:SyndicatedLoan>No</ns2:SyndicatedLoan>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>600000</ns2:LocalValue>
+                <ns2:Value>600000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TotalFacilityAmount />
+              <ns2:TotalTakenAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>579000</ns2:LocalValue>
+                <ns2:Value>579000</ns2:Value>
+              </ns2:TotalTakenAmount>
+              <ns2:WorstPastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>722400</ns2:LocalValue>
+                <ns2:Value>722400</ns2:Value>
+              </ns2:WorstPastDueAmount>
+              <ns2:WorstPastDueDays>102</ns2:WorstPastDueDays>
+            </ns2:Contract>
+          </ns2:ContractList>
+        </ns2:Contracts>
+        <ns2:CurrentRelations>
+          <ns2:ContractRelationList />
+          <ns2:InvolvementList />
+          <ns2:RelatedPartyList />
+        </ns2:CurrentRelations>
+        <ns2:Dashboard>
+          <ns2:CIQ>
+            <ns2:FraudAlerts>0</ns2:FraudAlerts>
+            <ns2:FraudAlertsThirdParty>0</ns2:FraudAlertsThirdParty>
+          </ns2:CIQ>
+          <ns2:Collaterals>
+            <ns2:NumberOfCollaterals>0</ns2:NumberOfCollaterals>
+            <ns2:TotalNonCashCollateralValue>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalNonCashCollateralValue>
+          </ns2:Collaterals>
+          <ns2:Disputes>
+            <ns2:ActiveContractDisputes>0</ns2:ActiveContractDisputes>
+            <ns2:FalseDisputes>0</ns2:FalseDisputes>
+            <ns2:NumberOfCourtRegisteredDisputes>0</ns2:NumberOfCourtRegisteredDisputes>
+          </ns2:Disputes>
+          <ns2:Inquiries>
+            <ns2:InquiriesForLast12Months>71</ns2:InquiriesForLast12Months>
+            <ns2:SubscribersInLast12Months>6</ns2:SubscribersInLast12Months>
+          </ns2:Inquiries>
+          <ns2:Involvements>
+            <ns2:NumberOfActiveInvolvements>0</ns2:NumberOfActiveInvolvements>
+          </ns2:Involvements>
+          <ns2:OtherLiabilities>
+            <ns2:NumberOfOpenAgreements>0</ns2:NumberOfOpenAgreements>
+          </ns2:OtherLiabilities>
+          <ns2:PaymentsProfile>
+            <ns2:NumberOfDifferentSubscribers>1</ns2:NumberOfDifferentSubscribers>
+            <ns2:PastDueAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>722400</ns2:LocalValue>
+              <ns2:Value>722400</ns2:Value>
+            </ns2:PastDueAmountSum>
+            <ns2:WorstPastDueDaysCurrent>102</ns2:WorstPastDueDaysCurrent>
+            <ns2:WorstPastDueDaysForLast12Months>102</ns2:WorstPastDueDaysForLast12Months>
+          </ns2:PaymentsProfile>
+          <ns2:Relations>
+            <ns2:NumberOfInvolvements>0</ns2:NumberOfInvolvements>
+            <ns2:NumberOfRelations>0</ns2:NumberOfRelations>
+          </ns2:Relations>
+          <ns2:Securities>
+            <ns2:NumberOfActiveSecurities>0</ns2:NumberOfActiveSecurities>
+          </ns2:Securities>
+        </ns2:Dashboard>
+        <ns2:Disputes>
+          <ns2:DisputeList />
+          <ns2:Summary>
+            <ns2:NumberOfActiveDisputesContracts>0</ns2:NumberOfActiveDisputesContracts>
+            <ns2:NumberOfActiveDisputesInCourt>0</ns2:NumberOfActiveDisputesInCourt>
+            <ns2:NumberOfActiveDisputesSubjectData>0</ns2:NumberOfActiveDisputesSubjectData>
+            <ns2:NumberOfClosedDisputesContracts>0</ns2:NumberOfClosedDisputesContracts>
+            <ns2:NumberOfClosedDisputesSubjectData>0</ns2:NumberOfClosedDisputesSubjectData>
+            <ns2:NumberOfFalseDisputes>0</ns2:NumberOfFalseDisputes>
+          </ns2:Summary>
+        </ns2:Disputes>
+        <ns2:Financials>
+          <ns2:FinancialStatementList />
+        </ns2:Financials>
+        <ns2:Individual>
+          <ns2:Contact>
+            <ns2:MobilePhone>6282121462340</ns2:MobilePhone>
+          </ns2:Contact>
+          <ns2:General>
+            <ns2:Citizenship>ID</ns2:Citizenship>
+            <ns2:ClassificationOfIndividual>Individual</ns2:ClassificationOfIndividual>
+            <ns2:DateOfBirth>1980-09-07T00:00:00</ns2:DateOfBirth>
+            <ns2:Education>NotSpecified</ns2:Education>
+            <ns2:EmployerSector>NotSpecified</ns2:EmployerSector>
+            <ns2:Employment>NotSpecified</ns2:Employment>
+            <ns2:FullName>Gupron Rahmatullah</ns2:FullName>
+            <ns2:Gender>Male</ns2:Gender>
+            <ns2:MaritalStatus>NotSpecified</ns2:MaritalStatus>
+            <ns2:MotherMaidenName>rini rachmayani</ns2:MotherMaidenName>
+            <ns2:PlaceOfBirth>jakarta</ns2:PlaceOfBirth>
+            <ns2:Residency>NotSpecified</ns2:Residency>
+            <ns2:SocialStatus>NotSpecified</ns2:SocialStatus>
+          </ns2:General>
+          <ns2:Identifications>
+            <ns2:KTP>1704190709800026</ns2:KTP>
+            <ns2:PassportIssuerCountry>NotSpecified</ns2:PassportIssuerCountry>
+            <ns2:PefindoId>15268858</ns2:PefindoId>
+          </ns2:Identifications>
+          <ns2:MainAddress>
+            <ns2:City>Bogor</ns2:City>
+            <ns2:Country>ID</ns2:Country>
+            <ns2:District>Bogor Selatan - Kota</ns2:District>
+            <ns2:PostalCode>16132</ns2:PostalCode>
+            <ns2:Street>gg.madrasah rt01 rw05</ns2:Street>
+          </ns2:MainAddress>
+        </ns2:Individual>
+        <ns2:Inquiries>
+          <ns2:InquiryList>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2021-01-13T13:50:39.537</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-12-14T19:14:30.783</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-12-02T16:34:14.433</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-11-27T14:55:28.517</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-11-27T10:55:18.817</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-10-14T16:19:19.323</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-09-22T11:49:44.123</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-08-13T10:59:29.313</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-08-03T09:24:32.63</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-29T20:40:58.147</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-29T11:51:49.88</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-28T13:47:47.927</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-27T15:16:10.023</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-26T20:46:37.167</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-24T10:12:17.133</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-23T09:09:05.587</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-22T15:31:29.04</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-21T09:55:00.9</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-16T20:55:02.723</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-07-14T13:06:14.44</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-16T20:42:26.883</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-04T09:19:15.737</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-03T17:44:16.1</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-03T09:22:11.18</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-02T17:03:54.283</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-02T09:02:26.29</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-01T12:15:50.703</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-31T05:29:32.967</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-30T10:48:45.637</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-29T17:39:12.677</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-29T08:54:52.29</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-28T20:10:43.853</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-28T10:11:44.537</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-27T11:05:10.23</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-26T13:06:07.073</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-25T07:14:00.517</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-24T04:51:23.797</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-23T14:23:01.567</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-22T18:29:15.37</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-22T10:25:00.36</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-21T04:07:48.017</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-20T12:31:01.25</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-20T00:38:42.493</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-19T09:48:42.897</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-14T14:59:47.083</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-13T11:25:26.803</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-12T10:46:45.577</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-11T11:44:50.943</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-08T18:21:57.123</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-08T10:21:53.187</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-07T16:33:23.157</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-06T11:03:46.157</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-05T16:16:37.853</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-05T08:15:38.83</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-04T11:48:38.033</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-05-01T12:44:05.44</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-30T12:11:02.817</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-30T09:45:17.973</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-29T12:03:44.753</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-29T09:38:07.363</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-28T13:09:23.783</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-27T08:53:15.133</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-24T17:15:19.987</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-24T09:14:28.11</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-24T09:10:37.143</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-23T17:31:04.8</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-23T08:55:54.813</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-22T20:25:33.86</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-22T12:06:56.813</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-22T08:24:48.267</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-04-21T16:37:48.063</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report</ns2:Product>
+              <ns2:Reason>AnotherReason</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+          </ns2:InquiryList>
+          <ns2:Summary>
+            <ns2:NumberOfInquiriesLast12Months>71</ns2:NumberOfInquiriesLast12Months>
+            <ns2:NumberOfInquiriesLast1Month>0</ns2:NumberOfInquiriesLast1Month>
+            <ns2:NumberOfInquiriesLast24Months>71</ns2:NumberOfInquiriesLast24Months>
+            <ns2:NumberOfInquiriesLast3Months>1</ns2:NumberOfInquiriesLast3Months>
+            <ns2:NumberOfInquiriesLast6Months>7</ns2:NumberOfInquiriesLast6Months>
+          </ns2:Summary>
+        </ns2:Inquiries>
+        <ns2:Involvements>
+          <ns2:InvolvementList />
+          <ns2:Summary>
+            <ns2:NumberOfActiveInvolvements>0</ns2:NumberOfActiveInvolvements>
+            <ns2:NumberOfPastInvolvements>0</ns2:NumberOfPastInvolvements>
+            <ns2:TotalAmountOfActiveInvolvements>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalAmountOfActiveInvolvements>
+          </ns2:Summary>
+        </ns2:Involvements>
+        <ns2:OtherLiabilities>
+          <ns2:OtherLiabilityList />
+          <ns2:Summary>
+            <ns2:NumberOfClosedAgreements>0</ns2:NumberOfClosedAgreements>
+            <ns2:NumberOfOpenAgreements>0</ns2:NumberOfOpenAgreements>
+            <ns2:TotalMarketValue>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalMarketValue>
+            <ns2:TotalPrincipalArrears>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalPrincipalArrears>
+          </ns2:Summary>
+        </ns2:OtherLiabilities>
+        <ns2:Parameters>
+          <ns2:Consent>true</ns2:Consent>
+          <ns2:IDNumber>15268858</ns2:IDNumber>
+          <ns2:IDNumberType>PefindoId</ns2:IDNumberType>
+          <ns2:InquiryReason>ProvidingFacilities</ns2:InquiryReason>
+          <ns2:InquiryReasonText />
+          <ns2:ReportDate>2021-03-15T00:00:00</ns2:ReportDate>
+          <ns2:Sections>
+            <ns2:string>PEFINDOScore</ns2:string>
+          </ns2:Sections>
+          <ns2:SubjectType>Individual</ns2:SubjectType>
+        </ns2:Parameters>
+        <ns2:ReportInfo>
+          <ns2:Created>2021-03-15T12:18:19.3028787+07:00</ns2:Created>
+          <ns2:ReferenceNumber>4369095-15268858</ns2:ReferenceNumber>
+          <ns2:ReportStatus>ReportGenerated</ns2:ReportStatus>
+          <ns2:RequestedBy>Johan Lai</ns2:RequestedBy>
+          <ns2:Version>553</ns2:Version>
+        </ns2:ReportInfo>
+        <ns2:Securities>
+          <ns2:SecurityList />
+          <ns2:Summary>
+            <ns2:NumberOfActiveSecurities>0</ns2:NumberOfActiveSecurities>
+            <ns2:NumberOfPastSecurities>0</ns2:NumberOfPastSecurities>
+            <ns2:TotalMarketValue>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalMarketValue>
+            <ns2:TotalPrincipalArrears>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalPrincipalArrears>
+          </ns2:Summary>
+        </ns2:Securities>
+        <ns2:SubjectInfoHistory>
+          <ns2:AddressList />
+          <ns2:ContactList />
+          <ns2:GeneralList />
+          <ns2:IdentificationsList />
+        </ns2:SubjectInfoHistory>
+      </ns2:GetCustomReportResult>
+    </ns2:pfGetCustomReportRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

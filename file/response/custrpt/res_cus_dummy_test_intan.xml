@@ -1,0 +1,2734 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:ServiceEnvelope xmlns:ns0="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceEnvelope">
+  <ns1:ServiceHeader xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceHeader">
+    <ns1:StandardType>BSMF</ns1:StandardType>
+    <ns1:StandardVersion>01</ns1:StandardVersion>
+    <ns1:TrackingID>koFzwEBInBbwvU/BAB-7mXskr0U</ns1:TrackingID>
+    <ns1:ServiceName>pfGetCustomReport</ns1:ServiceName>
+    <ns1:ServiceVersion>01</ns1:ServiceVersion>
+    <ns1:SourceID>DL</ns1:SourceID>
+    <ns1:TransactionID>pfGetCustomReport-AIPRE-20210104170126688368324112912</ns1:TransactionID>
+    <ns1:RsTimestamp>2021-01-04T17:03:28.044+07:00</ns1:RsTimestamp>
+    <ns1:StatusCode>0</ns1:StatusCode>
+  </ns1:ServiceHeader>
+  <ns1:ServiceBody xmlns:ns1="http://ns.chinatrust.com.tw/XSD/CTCB/ESB/Message/EMF/ServiceBody">
+    <ns2:pfGetCustomReportRs xmlns:ns2="http://ns.chinatrust.com.tw/XSD/CTCB/BCI/Message/pfGetCustomReport/01">
+      <ns2:RqUID>pfGetCustomReport-AIPRE-20210104170126688368324112912</ns2:RqUID>
+      <ns2:Status>
+        <ns2:StatusCode>0000</ns2:StatusCode>
+        <ns2:AdditionalStatus>
+          <ns2:StatusCode>200</ns2:StatusCode>
+        </ns2:AdditionalStatus>
+      </ns2:Status>
+      <ns2:GetCustomReportResult>
+        <ns2:CIP>
+          <ns2:RecordList>
+            <ns2:Record>
+              <ns2:Date>2021-01-04T00:00:00</ns2:Date>
+              <ns2:Grade>D1</ns2:Grade>
+              <ns2:ProbabilityOfDefault>9.81</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>NQS3</ns2:Code>
+                  <ns2:Description>2  subscribers have recently requested reports on subject</ns2:Description>
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description>Utilization exceeded 85% during last 12 months on at least 1 credit card</ns2:Description>
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>626</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+              <ns2:Grade>D1</ns2:Grade>
+              <ns2:ProbabilityOfDefault>9.81</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>NQS3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>626</ns2:Score>
+              <ns2:Trend>Down</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+              <ns2:Grade>C2</ns2:Grade>
+              <ns2:ProbabilityOfDefault>6.42</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>NQS3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>646</ns2:Score>
+              <ns2:Trend>Up</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+              <ns2:Grade>C2</ns2:Grade>
+              <ns2:ProbabilityOfDefault>6.7</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>NQS3</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>644</ns2:Score>
+              <ns2:Trend>Down</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+              <ns2:Grade>C1</ns2:Grade>
+              <ns2:ProbabilityOfDefault>5.51</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>653</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+              <ns2:Grade>C1</ns2:Grade>
+              <ns2:ProbabilityOfDefault>5.51</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>653</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+              <ns2:Grade>C1</ns2:Grade>
+              <ns2:ProbabilityOfDefault>5.51</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>653</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+              <ns2:Grade>C1</ns2:Grade>
+              <ns2:ProbabilityOfDefault>5.51</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>653</ns2:Score>
+              <ns2:Trend>Down</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+              <ns2:Grade>B3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>3.96</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>668</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+              <ns2:Grade>B3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>3.96</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>668</ns2:Score>
+              <ns2:Trend>NoChange</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+              <ns2:Grade>B3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>3.96</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>668</ns2:Score>
+              <ns2:Trend>Up</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+              <ns2:Grade>B3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>4.62</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList>
+                <ns2:Reason>
+                  <ns2:Code>RCU2</ns2:Code>
+                  <ns2:Description />
+                </ns2:Reason>
+              </ns2:ReasonsList>
+              <ns2:Score>661</ns2:Score>
+              <ns2:Trend>Down</ns2:Trend>
+            </ns2:Record>
+            <ns2:Record>
+              <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+              <ns2:Grade>B3</ns2:Grade>
+              <ns2:ProbabilityOfDefault>4.33</ns2:ProbabilityOfDefault>
+              <ns2:ReasonsList />
+              <ns2:Score>664</ns2:Score>
+              <ns2:Trend>Up</ns2:Trend>
+            </ns2:Record>
+          </ns2:RecordList>
+        </ns2:CIP>
+        <ns2:CIQ>
+          <ns2:Detail>
+            <ns2:NumberOfCancelledClosedContracts>0</ns2:NumberOfCancelledClosedContracts>
+            <ns2:NumberOfSubscribersMadeInquiriesLast14Days>0</ns2:NumberOfSubscribersMadeInquiriesLast14Days>
+            <ns2:NumberOfSubscribersMadeInquiriesLast2Days>0</ns2:NumberOfSubscribersMadeInquiriesLast2Days>
+          </ns2:Detail>
+          <ns2:Summary>
+            <ns2:NumberOfFraudAlertsPrimarySubject>0</ns2:NumberOfFraudAlertsPrimarySubject>
+            <ns2:NumberOfFraudAlertsThirdParty>0</ns2:NumberOfFraudAlertsThirdParty>
+          </ns2:Summary>
+        </ns2:CIQ>
+        <ns2:Collaterals>
+          <ns2:CollateralList />
+          <ns2:Summary>
+            <ns2:TotalValueOfCashCollaterals />
+            <ns2:TotalValueOfNonCashCollaterals />
+          </ns2:Summary>
+        </ns2:Collaterals>
+        <ns2:Company>
+          <ns2:Contact>
+            <ns2:Email />
+            <ns2:FixedLine />
+            <ns2:MobilePhone />
+          </ns2:Contact>
+          <ns2:General>
+            <ns2:CompanyName />
+            <ns2:CompanyNameLocal />
+            <ns2:EstablishmentDate />
+            <ns2:EstablishmentLocation />
+            <ns2:GroupName />
+            <ns2:Rating />
+            <ns2:RatingDate />
+          </ns2:General>
+          <ns2:Identifications>
+            <ns2:LatestDateOfDeed />
+            <ns2:LatestDeedNumber />
+            <ns2:NPWP />
+            <ns2:RegistrationNumber />
+          </ns2:Identifications>
+          <ns2:MainAddress>
+            <ns2:AddressLine />
+            <ns2:City />
+            <ns2:District />
+            <ns2:Parish />
+            <ns2:PostalCode />
+            <ns2:Street />
+          </ns2:MainAddress>
+        </ns2:Company>
+        <ns2:ContractOverview>
+          <ns2:ContractList>
+            <ns2:Contract>
+              <ns2:ContractStatus>GrantedAndActivated</ns2:ContractStatus>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>51465806</ns2:LocalValue>
+                <ns2:Value>51465806</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+              <ns2:PhaseOfContract>Open</ns2:PhaseOfContract>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:Sector>Banks</ns2:Sector>
+              <ns2:StartDate>2018-12-15T00:00:00</ns2:StartDate>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>55000000</ns2:LocalValue>
+                <ns2:Value>55000000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TypeOfContract>CreditCard</ns2:TypeOfContract>
+            </ns2:Contract>
+            <ns2:Contract>
+              <ns2:ContractStatus>GrantedAndActivated</ns2:ContractStatus>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>10756462</ns2:LocalValue>
+                <ns2:Value>10756462</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+              <ns2:PhaseOfContract>Open</ns2:PhaseOfContract>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:Sector>Banks</ns2:Sector>
+              <ns2:StartDate>2019-07-15T00:00:00</ns2:StartDate>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>23000000</ns2:LocalValue>
+                <ns2:Value>23000000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TypeOfContract>Installment</ns2:TypeOfContract>
+            </ns2:Contract>
+            <ns2:Contract>
+              <ns2:ContractStatus>SettledWithDiscount</ns2:ContractStatus>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>116051985</ns2:LocalValue>
+                <ns2:Value>116051985</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+              <ns2:PhaseOfContract>Closed</ns2:PhaseOfContract>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+              <ns2:StartDate>2018-10-19T00:00:00</ns2:StartDate>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>150000000</ns2:LocalValue>
+                <ns2:Value>150000000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TypeOfContract>CreditCard</ns2:TypeOfContract>
+            </ns2:Contract>
+          </ns2:ContractList>
+        </ns2:ContractOverview>
+        <ns2:ContractSummary>
+          <ns2:Debtor>
+            <ns2:ClosedContracts>1</ns2:ClosedContracts>
+            <ns2:OpenContracts>2</ns2:OpenContracts>
+            <ns2:OutstandingAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>62222268</ns2:LocalValue>
+              <ns2:Value>62222268</ns2:Value>
+            </ns2:OutstandingAmountSum>
+            <ns2:PastDueAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:PastDueAmountSum>
+            <ns2:TotalAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>78000000</ns2:LocalValue>
+              <ns2:Value>78000000</ns2:Value>
+            </ns2:TotalAmountSum>
+          </ns2:Debtor>
+          <ns2:Guarantor>
+            <ns2:ClosedContracts>0</ns2:ClosedContracts>
+            <ns2:OpenContracts>0</ns2:OpenContracts>
+            <ns2:OutstandingAmountSum />
+            <ns2:PastDueAmountSum />
+            <ns2:TotalAmountSum />
+          </ns2:Guarantor>
+          <ns2:Overall>
+            <ns2:WorstPastDueAmount>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:WorstPastDueAmount>
+            <ns2:WorstPastDueDays>0</ns2:WorstPastDueDays>
+          </ns2:Overall>
+          <ns2:PaymentCalendarList>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2021-01-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>62222268</ns2:LocalValue>
+                <ns2:Value>62222268</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>51413809</ns2:LocalValue>
+                <ns2:Value>51413809</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>60261736</ns2:LocalValue>
+                <ns2:Value>60261736</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>56871567</ns2:LocalValue>
+                <ns2:Value>56871567</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>166271792</ns2:LocalValue>
+                <ns2:Value>166271792</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>174264336</ns2:LocalValue>
+                <ns2:Value>174264336</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>186322574</ns2:LocalValue>
+                <ns2:Value>186322574</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>193869268</ns2:LocalValue>
+                <ns2:Value>193869268</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>147260403</ns2:LocalValue>
+                <ns2:Value>147260403</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2019-12-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>147552985</ns2:LocalValue>
+                <ns2:Value>147552985</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2019-11-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>151390793</ns2:LocalValue>
+                <ns2:Value>151390793</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2019-10-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>153088415</ns2:LocalValue>
+                <ns2:Value>153088415</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2019-09-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>154048985</ns2:LocalValue>
+                <ns2:Value>154048985</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2019-08-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>157858595</ns2:LocalValue>
+                <ns2:Value>157858595</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>3</ns2:ContractsSubmitted>
+              <ns2:Date>2019-07-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>161653755</ns2:LocalValue>
+                <ns2:Value>161653755</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2019-06-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>140980020</ns2:LocalValue>
+                <ns2:Value>140980020</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2019-05-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>141370662</ns2:LocalValue>
+                <ns2:Value>141370662</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2019-04-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>142085998</ns2:LocalValue>
+                <ns2:Value>142085998</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2019-03-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>144573972</ns2:LocalValue>
+                <ns2:Value>144573972</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2019-02-28T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>147144546</ns2:LocalValue>
+                <ns2:Value>147144546</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2019-01-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>149811418</ns2:LocalValue>
+                <ns2:Value>149811418</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>2</ns2:ContractsSubmitted>
+              <ns2:Date>2018-12-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>152091852</ns2:LocalValue>
+                <ns2:Value>152091852</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>1</ns2:ContractsSubmitted>
+              <ns2:Date>2018-11-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>148306510</ns2:LocalValue>
+                <ns2:Value>148306510</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-10-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-09-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-08-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-07-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-06-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-05-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-04-30T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-03-31T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+            <ns2:PaymentCalendar>
+              <ns2:ContractsSubmitted>0</ns2:ContractsSubmitted>
+              <ns2:Date>2018-02-28T00:00:00</ns2:Date>
+              <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+              <ns2:OutstandingAmount />
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays />
+            </ns2:PaymentCalendar>
+          </ns2:PaymentCalendarList>
+          <ns2:SectorInfoList>
+            <ns2:SectorInfo>
+              <ns2:DebtorClosedContracts>1</ns2:DebtorClosedContracts>
+              <ns2:DebtorOpenContracts>0</ns2:DebtorOpenContracts>
+              <ns2:DebtorOutstandingAmountSum />
+              <ns2:DebtorPastDueAmountSum />
+              <ns2:DebtorTotalAmountSum />
+              <ns2:GuarantorClosedContracts>0</ns2:GuarantorClosedContracts>
+              <ns2:GuarantorOpenContracts>0</ns2:GuarantorOpenContracts>
+              <ns2:GuarantorOutstandingAmountSum />
+              <ns2:GuarantorPastDueAmountSum />
+              <ns2:GuarantorTotalAmountSum />
+              <ns2:Sector>NonBankingFinancialInstitutions</ns2:Sector>
+            </ns2:SectorInfo>
+            <ns2:SectorInfo>
+              <ns2:DebtorClosedContracts>0</ns2:DebtorClosedContracts>
+              <ns2:DebtorOpenContracts>2</ns2:DebtorOpenContracts>
+              <ns2:DebtorOutstandingAmountSum>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>62222268</ns2:LocalValue>
+                <ns2:Value>62222268</ns2:Value>
+              </ns2:DebtorOutstandingAmountSum>
+              <ns2:DebtorPastDueAmountSum>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:DebtorPastDueAmountSum>
+              <ns2:DebtorTotalAmountSum>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>78000000</ns2:LocalValue>
+                <ns2:Value>78000000</ns2:Value>
+              </ns2:DebtorTotalAmountSum>
+              <ns2:GuarantorClosedContracts>0</ns2:GuarantorClosedContracts>
+              <ns2:GuarantorOpenContracts>0</ns2:GuarantorOpenContracts>
+              <ns2:GuarantorOutstandingAmountSum />
+              <ns2:GuarantorPastDueAmountSum />
+              <ns2:GuarantorTotalAmountSum />
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:SectorInfo>
+          </ns2:SectorInfoList>
+        </ns2:ContractSummary>
+        <ns2:Contracts>
+          <ns2:ContractList>
+            <ns2:Contract>
+              <ns2:BankBeneficiary />
+              <ns2:Branch>Jakarta</ns2:Branch>
+              <ns2:CollateralsList />
+              <ns2:ConditionDate />
+              <ns2:ContractCode>***TBC3</ns2:ContractCode>
+              <ns2:ContractCurrency>IDR</ns2:ContractCurrency>
+              <ns2:ContractStatus>GrantedAndActivated</ns2:ContractStatus>
+              <ns2:ContractSubtype>CreditCard</ns2:ContractSubtype>
+              <ns2:ContractType>CreditCard</ns2:ContractType>
+              <ns2:CreditCharacteristics>Other</ns2:CreditCharacteristics>
+              <ns2:CreditClassification>NonMSME</ns2:CreditClassification>
+              <ns2:CreditUsageInLast30Days />
+              <ns2:Creditor>CITIBANK N.A.</ns2:Creditor>
+              <ns2:CreditorType>Banks</ns2:CreditorType>
+              <ns2:DefaultDate />
+              <ns2:DefaultReason>NotSpecified</ns2:DefaultReason>
+              <ns2:DefaultReasonDescription />
+              <ns2:DelinquencyDate />
+              <ns2:Description />
+              <ns2:DisbursementDate />
+              <ns2:Disputes>
+                <ns2:ClosedDisputes>0</ns2:ClosedDisputes>
+                <ns2:DisputeList />
+                <ns2:FalseDisputes>0</ns2:FalseDisputes>
+              </ns2:Disputes>
+              <ns2:EconomicSector>ID_9990</ns2:EconomicSector>
+              <ns2:GovernmentProgram>NonGovernment</ns2:GovernmentProgram>
+              <ns2:GuarantyDeposit />
+              <ns2:InitialAgreementDate />
+              <ns2:InitialAgreementNumber />
+              <ns2:InitialInterestRate>24</ns2:InitialInterestRate>
+              <ns2:InitialInterestRateType>Floating</ns2:InitialInterestRateType>
+              <ns2:InitialRestructuringDate />
+              <ns2:InitialTotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>55000000</ns2:LocalValue>
+                <ns2:Value>55000000</ns2:Value>
+              </ns2:InitialTotalAmount>
+              <ns2:InterestArrears />
+              <ns2:InterestArrearsFrequency />
+              <ns2:LastAgreementDate />
+              <ns2:LastAgreementNumber />
+              <ns2:LastDelinquency90PlusDays />
+              <ns2:LastInterestRate>24</ns2:LastInterestRate>
+              <ns2:LastInterestRateType>Floating</ns2:LastInterestRateType>
+              <ns2:LastUpdate>2020-09-30T00:00:00</ns2:LastUpdate>
+              <ns2:MaturityDate>2023-12-15T00:00:00</ns2:MaturityDate>
+              <ns2:NameOfInsured />
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OrientationOfUse>Other</ns2:OrientationOfUse>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>51465806</ns2:LocalValue>
+                <ns2:Value>51465806</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+              <ns2:PastDueInterest>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueInterest>
+              <ns2:PaymentCalendarList>
+                <ns2:CalendarItem>
+                  <ns2:Date>2021-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>51465806</ns2:LocalValue>
+                    <ns2:Value>51465806</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>39680805</ns2:LocalValue>
+                    <ns2:Value>39680805</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>47568985</ns2:LocalValue>
+                    <ns2:Value>47568985</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>43235576</ns2:LocalValue>
+                    <ns2:Value>43235576</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>35656798</ns2:LocalValue>
+                    <ns2:Value>35656798</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>40646576</ns2:LocalValue>
+                    <ns2:Value>40646576</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>45687998</ns2:LocalValue>
+                    <ns2:Value>45687998</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>52354688</ns2:LocalValue>
+                    <ns2:Value>52354688</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>4880954</ns2:LocalValue>
+                    <ns2:Value>4880954</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>4323542</ns2:LocalValue>
+                    <ns2:Value>4323542</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>5335679</ns2:LocalValue>
+                    <ns2:Value>5335679</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>4246568</ns2:LocalValue>
+                    <ns2:Value>4246568</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>2458794</ns2:LocalValue>
+                    <ns2:Value>2458794</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>3557906</ns2:LocalValue>
+                    <ns2:Value>3557906</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>4679880</ns2:LocalValue>
+                    <ns2:Value>4679880</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>5135709</ns2:LocalValue>
+                    <ns2:Value>5135709</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>3679007</ns2:LocalValue>
+                    <ns2:Value>3679007</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>2569806</ns2:LocalValue>
+                    <ns2:Value>2569806</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>3255768</ns2:LocalValue>
+                    <ns2:Value>3255768</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-02-28T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>4046578</ns2:LocalValue>
+                    <ns2:Value>4046578</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>4955657</ns2:LocalValue>
+                    <ns2:Value>4955657</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>24</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>5500000</ns2:LocalValue>
+                    <ns2:Value>5500000</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-02-28T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+              </ns2:PaymentCalendarList>
+              <ns2:Penalty />
+              <ns2:PhaseOfContract>Open</ns2:PhaseOfContract>
+              <ns2:PrincipalArrears>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PrincipalArrears>
+              <ns2:PrincipalArrearsFrequency>0</ns2:PrincipalArrearsFrequency>
+              <ns2:PrincipalBalance>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>51465806</ns2:LocalValue>
+                <ns2:Value>51465806</ns2:Value>
+              </ns2:PrincipalBalance>
+              <ns2:ProjectLocation />
+              <ns2:ProjectValue />
+              <ns2:ProlongationCounter />
+              <ns2:PurposeOfFinancing>Other</ns2:PurposeOfFinancing>
+              <ns2:RealEndDate />
+              <ns2:RelatedSubjectsList />
+              <ns2:RestructuredCount />
+              <ns2:RestructuringDate />
+              <ns2:RestructuringReason>NotSpecified</ns2:RestructuringReason>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:StartDate>2018-12-15T00:00:00</ns2:StartDate>
+              <ns2:SyndicatedLoan>NotSpecified</ns2:SyndicatedLoan>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>55000000</ns2:LocalValue>
+                <ns2:Value>55000000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TotalFacilityAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>55000000</ns2:LocalValue>
+                <ns2:Value>55000000</ns2:Value>
+              </ns2:TotalFacilityAmount>
+              <ns2:TotalTakenAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>52354688</ns2:LocalValue>
+                <ns2:Value>52354688</ns2:Value>
+              </ns2:TotalTakenAmount>
+              <ns2:WorstPastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:WorstPastDueAmount>
+              <ns2:WorstPastDueDays>0</ns2:WorstPastDueDays>
+            </ns2:Contract>
+            <ns2:Contract>
+              <ns2:BankBeneficiary />
+              <ns2:Branch>Jakarta</ns2:Branch>
+              <ns2:CollateralsList />
+              <ns2:ConditionDate />
+              <ns2:ContractCode>CTBC4</ns2:ContractCode>
+              <ns2:ContractCurrency>IDR</ns2:ContractCurrency>
+              <ns2:ContractStatus>GrantedAndActivated</ns2:ContractStatus>
+              <ns2:ContractSubtype>ConsumerLoan</ns2:ContractSubtype>
+              <ns2:ContractType>Installment</ns2:ContractType>
+              <ns2:CreditCharacteristics>Other</ns2:CreditCharacteristics>
+              <ns2:CreditClassification>NonMSME</ns2:CreditClassification>
+              <ns2:CreditUsageInLast30Days />
+              <ns2:Creditor>PT Bank Mega</ns2:Creditor>
+              <ns2:CreditorType>Banks</ns2:CreditorType>
+              <ns2:DefaultDate />
+              <ns2:DefaultReason>NotSpecified</ns2:DefaultReason>
+              <ns2:DefaultReasonDescription />
+              <ns2:DelinquencyDate />
+              <ns2:Description />
+              <ns2:DisbursementDate />
+              <ns2:Disputes>
+                <ns2:ClosedDisputes>0</ns2:ClosedDisputes>
+                <ns2:DisputeList />
+                <ns2:FalseDisputes>0</ns2:FalseDisputes>
+              </ns2:Disputes>
+              <ns2:EconomicSector>ID_9990</ns2:EconomicSector>
+              <ns2:GovernmentProgram>NonGovernment</ns2:GovernmentProgram>
+              <ns2:GuarantyDeposit />
+              <ns2:InitialAgreementDate />
+              <ns2:InitialAgreementNumber />
+              <ns2:InitialInterestRate>21</ns2:InitialInterestRate>
+              <ns2:InitialInterestRateType>Fixed</ns2:InitialInterestRateType>
+              <ns2:InitialRestructuringDate />
+              <ns2:InitialTotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>23000000</ns2:LocalValue>
+                <ns2:Value>23000000</ns2:Value>
+              </ns2:InitialTotalAmount>
+              <ns2:InterestArrears>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:InterestArrears>
+              <ns2:InterestArrearsFrequency />
+              <ns2:LastAgreementDate />
+              <ns2:LastAgreementNumber />
+              <ns2:LastDelinquency90PlusDays />
+              <ns2:LastInterestRate>21</ns2:LastInterestRate>
+              <ns2:LastInterestRateType>Fixed</ns2:LastInterestRateType>
+              <ns2:LastUpdate>2020-09-30T00:00:00</ns2:LastUpdate>
+              <ns2:MaturityDate>2021-06-15T00:00:00</ns2:MaturityDate>
+              <ns2:NameOfInsured />
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OrientationOfUse>Other</ns2:OrientationOfUse>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>10756462</ns2:LocalValue>
+                <ns2:Value>10756462</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueAmount>
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+              <ns2:PastDueInterest>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PastDueInterest>
+              <ns2:PaymentCalendarList>
+                <ns2:CalendarItem>
+                  <ns2:Date>2021-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>10756462</ns2:LocalValue>
+                    <ns2:Value>10756462</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>11733004</ns2:LocalValue>
+                    <ns2:Value>11733004</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>12692751</ns2:LocalValue>
+                    <ns2:Value>12692751</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>13635991</ns2:LocalValue>
+                    <ns2:Value>13635991</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>14563009</ns2:LocalValue>
+                    <ns2:Value>14563009</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>15474082</ns2:LocalValue>
+                    <ns2:Value>15474082</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>16369486</ns2:LocalValue>
+                    <ns2:Value>16369486</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>17249490</ns2:LocalValue>
+                    <ns2:Value>17249490</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>18114359</ns2:LocalValue>
+                    <ns2:Value>18114359</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>18964353</ns2:LocalValue>
+                    <ns2:Value>18964353</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>19799727</ns2:LocalValue>
+                    <ns2:Value>19799727</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>20620734</ns2:LocalValue>
+                    <ns2:Value>20620734</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>21427621</ns2:LocalValue>
+                    <ns2:Value>21427621</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>22220630</ns2:LocalValue>
+                    <ns2:Value>22220630</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>21</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>23000000</ns2:LocalValue>
+                    <ns2:Value>23000000</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>0</ns2:LocalValue>
+                    <ns2:Value>0</ns2:Value>
+                  </ns2:PastDueAmount>
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-02-28T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+              </ns2:PaymentCalendarList>
+              <ns2:Penalty>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:Penalty>
+              <ns2:PhaseOfContract>Open</ns2:PhaseOfContract>
+              <ns2:PrincipalArrears>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:PrincipalArrears>
+              <ns2:PrincipalArrearsFrequency>0</ns2:PrincipalArrearsFrequency>
+              <ns2:PrincipalBalance>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>10756462</ns2:LocalValue>
+                <ns2:Value>10756462</ns2:Value>
+              </ns2:PrincipalBalance>
+              <ns2:ProjectLocation />
+              <ns2:ProjectValue />
+              <ns2:ProlongationCounter />
+              <ns2:PurposeOfFinancing>OtherConsumerCredit</ns2:PurposeOfFinancing>
+              <ns2:RealEndDate />
+              <ns2:RelatedSubjectsList />
+              <ns2:RestructuredCount />
+              <ns2:RestructuringDate />
+              <ns2:RestructuringReason>NotSpecified</ns2:RestructuringReason>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:StartDate>2019-07-15T00:00:00</ns2:StartDate>
+              <ns2:SyndicatedLoan>NotSpecified</ns2:SyndicatedLoan>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>23000000</ns2:LocalValue>
+                <ns2:Value>23000000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TotalFacilityAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>23000000</ns2:LocalValue>
+                <ns2:Value>23000000</ns2:Value>
+              </ns2:TotalFacilityAmount>
+              <ns2:TotalTakenAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>23000000</ns2:LocalValue>
+                <ns2:Value>23000000</ns2:Value>
+              </ns2:TotalTakenAmount>
+              <ns2:WorstPastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:WorstPastDueAmount>
+              <ns2:WorstPastDueDays>0</ns2:WorstPastDueDays>
+            </ns2:Contract>
+            <ns2:Contract>
+              <ns2:BankBeneficiary />
+              <ns2:Branch>Jakarta</ns2:Branch>
+              <ns2:CollateralsList>
+                <ns2:Collateral>
+                  <ns2:AppraisalValue>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>180000000</ns2:LocalValue>
+                    <ns2:Value>180000000</ns2:Value>
+                  </ns2:AppraisalValue>
+                  <ns2:BankValuationDate />
+                  <ns2:BankValue>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>180000000</ns2:LocalValue>
+                    <ns2:Value>180000000</ns2:Value>
+                  </ns2:BankValue>
+                  <ns2:Branch>Jakarta</ns2:Branch>
+                  <ns2:CollateralAcceptanceDate />
+                  <ns2:CollateralAppraisalAuthority />
+                  <ns2:CollateralCode>MBL7889587</ns2:CollateralCode>
+                  <ns2:CollateralDescription>Sebuah Mobil Avanza 2018</ns2:CollateralDescription>
+                  <ns2:CollateralOwnerName />
+                  <ns2:CollateralRating />
+                  <ns2:CollateralStatus>NotSpecified</ns2:CollateralStatus>
+                  <ns2:CollateralType>NonCashMobileAsset</ns2:CollateralType>
+                  <ns2:CollateralValue>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>180000000</ns2:LocalValue>
+                    <ns2:Value>180000000</ns2:Value>
+                  </ns2:CollateralValue>
+                  <ns2:HasMultipleCollaterals>NotSpecified</ns2:HasMultipleCollaterals>
+                  <ns2:Insurance>NotSpecified</ns2:Insurance>
+                  <ns2:IsShared>NotSpecified</ns2:IsShared>
+                  <ns2:MainAddressAddressLine />
+                  <ns2:MainAddressCity />
+                  <ns2:MainAddressStreet />
+                  <ns2:ProofOfOwnership />
+                  <ns2:RatingAuthority>NotSpecified</ns2:RatingAuthority>
+                  <ns2:SecurityAssignmentType>NotSpecified</ns2:SecurityAssignmentType>
+                  <ns2:SharedPortion />
+                  <ns2:ValuationDate />
+                </ns2:Collateral>
+              </ns2:CollateralsList>
+              <ns2:ConditionDate />
+              <ns2:ContractCode>***HJW1</ns2:ContractCode>
+              <ns2:ContractCurrency>IDR</ns2:ContractCurrency>
+              <ns2:ContractStatus>SettledWithDiscount</ns2:ContractStatus>
+              <ns2:ContractSubtype>ConsumerLoan</ns2:ContractSubtype>
+              <ns2:ContractType>CreditCard</ns2:ContractType>
+              <ns2:CreditCharacteristics>Other</ns2:CreditCharacteristics>
+              <ns2:CreditClassification>NonMSME</ns2:CreditClassification>
+              <ns2:CreditUsageInLast30Days />
+              <ns2:Creditor>PT BFI Finance Indonesia Tbk</ns2:Creditor>
+              <ns2:CreditorType>NonBankingFinancialInstitutions</ns2:CreditorType>
+              <ns2:DefaultDate />
+              <ns2:DefaultReason>NotSpecified</ns2:DefaultReason>
+              <ns2:DefaultReasonDescription />
+              <ns2:DelinquencyDate />
+              <ns2:Description />
+              <ns2:DisbursementDate>2018-10-18T00:00:00</ns2:DisbursementDate>
+              <ns2:Disputes>
+                <ns2:ClosedDisputes>0</ns2:ClosedDisputes>
+                <ns2:DisputeList />
+                <ns2:FalseDisputes>0</ns2:FalseDisputes>
+              </ns2:Disputes>
+              <ns2:EconomicSector>ID_9962</ns2:EconomicSector>
+              <ns2:GovernmentProgram>NonGovernment</ns2:GovernmentProgram>
+              <ns2:GuarantyDeposit />
+              <ns2:InitialAgreementDate>2018-10-18T00:00:00</ns2:InitialAgreementDate>
+              <ns2:InitialAgreementNumber>BFI00065</ns2:InitialAgreementNumber>
+              <ns2:InitialInterestRate>15</ns2:InitialInterestRate>
+              <ns2:InitialInterestRateType>Fixed</ns2:InitialInterestRateType>
+              <ns2:InitialRestructuringDate />
+              <ns2:InitialTotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>150000000</ns2:LocalValue>
+                <ns2:Value>150000000</ns2:Value>
+              </ns2:InitialTotalAmount>
+              <ns2:InterestArrears />
+              <ns2:InterestArrearsFrequency />
+              <ns2:LastAgreementDate />
+              <ns2:LastAgreementNumber />
+              <ns2:LastDelinquency90PlusDays />
+              <ns2:LastInterestRate>15</ns2:LastInterestRate>
+              <ns2:LastInterestRateType>Fixed</ns2:LastInterestRateType>
+              <ns2:LastUpdate>2020-05-26T00:00:00</ns2:LastUpdate>
+              <ns2:MaturityDate />
+              <ns2:NameOfInsured />
+              <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+              <ns2:OrientationOfUse>Other</ns2:OrientationOfUse>
+              <ns2:OutstandingAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>116051985</ns2:LocalValue>
+                <ns2:Value>116051985</ns2:Value>
+              </ns2:OutstandingAmount>
+              <ns2:PastDueAmount />
+              <ns2:PastDueDays>0</ns2:PastDueDays>
+              <ns2:PastDueInterest />
+              <ns2:PaymentCalendarList>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>116051985</ns2:LocalValue>
+                    <ns2:Value>116051985</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>118143678</ns2:LocalValue>
+                    <ns2:Value>118143678</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>124265090</ns2:LocalValue>
+                    <ns2:Value>124265090</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-02-29T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>124265090</ns2:LocalValue>
+                    <ns2:Value>124265090</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2020-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>124265090</ns2:LocalValue>
+                    <ns2:Value>124265090</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>124265090</ns2:LocalValue>
+                    <ns2:Value>124265090</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>126255387</ns2:LocalValue>
+                    <ns2:Value>126255387</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>128221113</ns2:LocalValue>
+                    <ns2:Value>128221113</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>130162570</ns2:LocalValue>
+                    <ns2:Value>130162570</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>132080059</ns2:LocalValue>
+                    <ns2:Value>132080059</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>133973875</ns2:LocalValue>
+                    <ns2:Value>133973875</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>135844311</ns2:LocalValue>
+                    <ns2:Value>135844311</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-05-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>137691655</ns2:LocalValue>
+                    <ns2:Value>137691655</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-04-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>139516192</ns2:LocalValue>
+                    <ns2:Value>139516192</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-03-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>141318204</ns2:LocalValue>
+                    <ns2:Value>141318204</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-02-28T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>143097968</ns2:LocalValue>
+                    <ns2:Value>143097968</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2019-01-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>144855761</ns2:LocalValue>
+                    <ns2:Value>144855761</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-12-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>146591852</ns2:LocalValue>
+                    <ns2:Value>146591852</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-11-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>Ok</ns2:DelinquencyStatus>
+                  <ns2:InterestRate>15</ns2:InterestRate>
+                  <ns2:NegativeStatusOfContract>NoNegativeStatus</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount>
+                    <ns2:Currency>IDR</ns2:Currency>
+                    <ns2:LocalValue>148306510</ns2:LocalValue>
+                    <ns2:Value>148306510</ns2:Value>
+                  </ns2:OutstandingAmount>
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays>0</ns2:PastDueDays>
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-10-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-09-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-08-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-07-31T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+                <ns2:CalendarItem>
+                  <ns2:Date>2018-06-30T00:00:00</ns2:Date>
+                  <ns2:DelinquencyStatus>NotAvailable</ns2:DelinquencyStatus>
+                  <ns2:InterestRate />
+                  <ns2:NegativeStatusOfContract>NotSpecified</ns2:NegativeStatusOfContract>
+                  <ns2:OutstandingAmount />
+                  <ns2:PastDueAmount />
+                  <ns2:PastDueDays />
+                </ns2:CalendarItem>
+              </ns2:PaymentCalendarList>
+              <ns2:Penalty />
+              <ns2:PhaseOfContract>Closed</ns2:PhaseOfContract>
+              <ns2:PrincipalArrears />
+              <ns2:PrincipalArrearsFrequency>0</ns2:PrincipalArrearsFrequency>
+              <ns2:PrincipalBalance>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>116051985</ns2:LocalValue>
+                <ns2:Value>116051985</ns2:Value>
+              </ns2:PrincipalBalance>
+              <ns2:ProjectLocation />
+              <ns2:ProjectValue />
+              <ns2:ProlongationCounter />
+              <ns2:PurposeOfFinancing>Other</ns2:PurposeOfFinancing>
+              <ns2:RealEndDate>2020-05-19T00:00:00</ns2:RealEndDate>
+              <ns2:RelatedSubjectsList />
+              <ns2:RestructuredCount />
+              <ns2:RestructuringDate />
+              <ns2:RestructuringReason>NotSpecified</ns2:RestructuringReason>
+              <ns2:RoleOfClient>MainDebtor</ns2:RoleOfClient>
+              <ns2:StartDate>2018-10-19T00:00:00</ns2:StartDate>
+              <ns2:SyndicatedLoan>NotSpecified</ns2:SyndicatedLoan>
+              <ns2:TotalAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>150000000</ns2:LocalValue>
+                <ns2:Value>150000000</ns2:Value>
+              </ns2:TotalAmount>
+              <ns2:TotalFacilityAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>150000000</ns2:LocalValue>
+                <ns2:Value>150000000</ns2:Value>
+              </ns2:TotalFacilityAmount>
+              <ns2:TotalTakenAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>150000000</ns2:LocalValue>
+                <ns2:Value>150000000</ns2:Value>
+              </ns2:TotalTakenAmount>
+              <ns2:WorstPastDueAmount>
+                <ns2:Currency>IDR</ns2:Currency>
+                <ns2:LocalValue>0</ns2:LocalValue>
+                <ns2:Value>0</ns2:Value>
+              </ns2:WorstPastDueAmount>
+              <ns2:WorstPastDueDays>0</ns2:WorstPastDueDays>
+            </ns2:Contract>
+          </ns2:ContractList>
+        </ns2:Contracts>
+        <ns2:CurrentRelations>
+          <ns2:ContractRelationList />
+          <ns2:InvolvementList />
+          <ns2:RelatedPartyList>
+            <ns2:RelatedParty>
+              <ns2:Contact>
+                <ns2:MobilePhone>6282283903907289</ns2:MobilePhone>
+              </ns2:Contact>
+              <ns2:CreditinfoId>56317800</ns2:CreditinfoId>
+              <ns2:FullName>Fitria Intan</ns2:FullName>
+              <ns2:Gender>Female</ns2:Gender>
+              <ns2:IDNumber>1744341512710002</ns2:IDNumber>
+              <ns2:IDNumberType>KTP</ns2:IDNumberType>
+              <ns2:LTV />
+              <ns2:MainAddress>
+                <ns2:AddressLine>JL. Soekarno No.28 KAB. PELALAWAN RIAU</ns2:AddressLine>
+                <ns2:Country>NotSpecified</ns2:Country>
+              </ns2:MainAddress>
+              <ns2:OwnershipShare />
+              <ns2:Procura>
+                <ns2:ProcuraRecordNumber />
+                <ns2:RegistrationDate />
+                <ns2:TerminationDate />
+              </ns2:Procura>
+              <ns2:SubjectStatus>NotSpecified</ns2:SubjectStatus>
+              <ns2:SubjectType>Individual</ns2:SubjectType>
+              <ns2:TypeOfRelation>Other</ns2:TypeOfRelation>
+              <ns2:ValidFrom>2019-07-30T00:00:00</ns2:ValidFrom>
+            </ns2:RelatedParty>
+            <ns2:RelatedParty>
+              <ns2:Contact>
+                <ns2:MobilePhone>6282283903907289</ns2:MobilePhone>
+              </ns2:Contact>
+              <ns2:CreditinfoId>56317800</ns2:CreditinfoId>
+              <ns2:FullName>Fitria Intan</ns2:FullName>
+              <ns2:Gender>Male</ns2:Gender>
+              <ns2:IDNumber>1744341512710002</ns2:IDNumber>
+              <ns2:IDNumberType>KTP</ns2:IDNumberType>
+              <ns2:LTV />
+              <ns2:MainAddress>
+                <ns2:AddressLine>JL. Soekarno No.28KAB. PELALAWANRIAU</ns2:AddressLine>
+                <ns2:Country>NotSpecified</ns2:Country>
+              </ns2:MainAddress>
+              <ns2:OwnershipShare />
+              <ns2:Procura>
+                <ns2:ProcuraRecordNumber />
+                <ns2:RegistrationDate />
+                <ns2:TerminationDate />
+              </ns2:Procura>
+              <ns2:SubjectStatus>NotSpecified</ns2:SubjectStatus>
+              <ns2:SubjectType>Individual</ns2:SubjectType>
+              <ns2:TypeOfRelation>Other</ns2:TypeOfRelation>
+              <ns2:ValidFrom>2018-12-30T00:00:00</ns2:ValidFrom>
+            </ns2:RelatedParty>
+            <ns2:RelatedParty>
+              <ns2:Contact>
+                <ns2:MobilePhone>628228390390722</ns2:MobilePhone>
+              </ns2:Contact>
+              <ns2:CreditinfoId>56317800</ns2:CreditinfoId>
+              <ns2:FullName>Torang Ramses Yulisan</ns2:FullName>
+              <ns2:Gender>Male</ns2:Gender>
+              <ns2:IDNumber>3175090107760012</ns2:IDNumber>
+              <ns2:IDNumberType>KTP</ns2:IDNumberType>
+              <ns2:LTV />
+              <ns2:MainAddress>
+                <ns2:AddressLine> Balam Merah,  RT 001 RW 002, kecamatan Bunut, Kabupaten Pelalawan, Riau,ID, 28383</ns2:AddressLine>
+                <ns2:Country>NotSpecified</ns2:Country>
+              </ns2:MainAddress>
+              <ns2:OwnershipShare />
+              <ns2:Procura>
+                <ns2:ProcuraRecordNumber />
+                <ns2:RegistrationDate />
+                <ns2:TerminationDate />
+              </ns2:Procura>
+              <ns2:SubjectStatus>NotSpecified</ns2:SubjectStatus>
+              <ns2:SubjectType>Individual</ns2:SubjectType>
+              <ns2:TypeOfRelation>Other</ns2:TypeOfRelation>
+              <ns2:ValidFrom>2018-11-26T00:00:00</ns2:ValidFrom>
+            </ns2:RelatedParty>
+          </ns2:RelatedPartyList>
+        </ns2:CurrentRelations>
+        <ns2:Dashboard>
+          <ns2:CIQ>
+            <ns2:FraudAlerts>0</ns2:FraudAlerts>
+            <ns2:FraudAlertsThirdParty>0</ns2:FraudAlertsThirdParty>
+          </ns2:CIQ>
+          <ns2:Collaterals>
+            <ns2:NumberOfCollaterals>0</ns2:NumberOfCollaterals>
+            <ns2:TotalNonCashCollateralValue>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalNonCashCollateralValue>
+          </ns2:Collaterals>
+          <ns2:Disputes>
+            <ns2:ActiveContractDisputes>0</ns2:ActiveContractDisputes>
+            <ns2:FalseDisputes>0</ns2:FalseDisputes>
+            <ns2:NumberOfCourtRegisteredDisputes>0</ns2:NumberOfCourtRegisteredDisputes>
+          </ns2:Disputes>
+          <ns2:Inquiries>
+            <ns2:InquiriesForLast12Months>13</ns2:InquiriesForLast12Months>
+            <ns2:SubscribersInLast12Months>2</ns2:SubscribersInLast12Months>
+          </ns2:Inquiries>
+          <ns2:Involvements>
+            <ns2:NumberOfActiveInvolvements>0</ns2:NumberOfActiveInvolvements>
+          </ns2:Involvements>
+          <ns2:OtherLiabilities>
+            <ns2:NumberOfOpenAgreements>0</ns2:NumberOfOpenAgreements>
+          </ns2:OtherLiabilities>
+          <ns2:PaymentsProfile>
+            <ns2:NumberOfDifferentSubscribers>3</ns2:NumberOfDifferentSubscribers>
+            <ns2:PastDueAmountSum>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:PastDueAmountSum>
+            <ns2:WorstPastDueDaysCurrent>0</ns2:WorstPastDueDaysCurrent>
+            <ns2:WorstPastDueDaysForLast12Months>0</ns2:WorstPastDueDaysForLast12Months>
+          </ns2:PaymentsProfile>
+          <ns2:Relations>
+            <ns2:NumberOfInvolvements>0</ns2:NumberOfInvolvements>
+            <ns2:NumberOfRelations>3</ns2:NumberOfRelations>
+          </ns2:Relations>
+          <ns2:Securities>
+            <ns2:NumberOfActiveSecurities>0</ns2:NumberOfActiveSecurities>
+          </ns2:Securities>
+        </ns2:Dashboard>
+        <ns2:Disputes>
+          <ns2:DisputeList />
+          <ns2:Summary>
+            <ns2:NumberOfActiveDisputesContracts>0</ns2:NumberOfActiveDisputesContracts>
+            <ns2:NumberOfActiveDisputesInCourt>0</ns2:NumberOfActiveDisputesInCourt>
+            <ns2:NumberOfActiveDisputesSubjectData>0</ns2:NumberOfActiveDisputesSubjectData>
+            <ns2:NumberOfClosedDisputesContracts>0</ns2:NumberOfClosedDisputesContracts>
+            <ns2:NumberOfClosedDisputesSubjectData>0</ns2:NumberOfClosedDisputesSubjectData>
+            <ns2:NumberOfFalseDisputes>0</ns2:NumberOfFalseDisputes>
+          </ns2:Summary>
+        </ns2:Disputes>
+        <ns2:Financials>
+          <ns2:FinancialStatementList />
+        </ns2:Financials>
+        <ns2:Individual>
+          <ns2:Contact>
+            <ns2:Email>Torang.Yulisan@gmail.com</ns2:Email>
+            <ns2:MobilePhone>6282283903907289</ns2:MobilePhone>
+          </ns2:Contact>
+          <ns2:General>
+            <ns2:Citizenship>ID</ns2:Citizenship>
+            <ns2:ClassificationOfIndividual>Individual</ns2:ClassificationOfIndividual>
+            <ns2:DateOfBirth>1971-12-15T00:00:00</ns2:DateOfBirth>
+            <ns2:Education>Bachelor</ns2:Education>
+            <ns2:EmployerName>PT Indocement Tunggal Prakarsa</ns2:EmployerName>
+            <ns2:EmployerSector>ID_9990</ns2:EmployerSector>
+            <ns2:Employment>Computer</ns2:Employment>
+            <ns2:FullName>Fitria Intan</ns2:FullName>
+            <ns2:FullNameLocal>Fitria Intan</ns2:FullNameLocal>
+            <ns2:Gender>Female</ns2:Gender>
+            <ns2:MaritalStatus>Married</ns2:MaritalStatus>
+            <ns2:MotherMaidenName>Pelia</ns2:MotherMaidenName>
+            <ns2:PlaceOfBirth>PELALAWAN</ns2:PlaceOfBirth>
+            <ns2:Residency>Yes</ns2:Residency>
+            <ns2:SocialStatus>Employed</ns2:SocialStatus>
+          </ns2:General>
+          <ns2:Identifications>
+            <ns2:KTP>1744341512710002</ns2:KTP>
+            <ns2:NPWP>68717057431</ns2:NPWP>
+            <ns2:PassportIssuerCountry>NotSpecified</ns2:PassportIssuerCountry>
+            <ns2:PefindoId>56317800</ns2:PefindoId>
+          </ns2:Identifications>
+          <ns2:MainAddress>
+            <ns2:AddressLine>JL. Soekarno No.28 KAB. PELALAWAN RIAU</ns2:AddressLine>
+            <ns2:Country>NotSpecified</ns2:Country>
+          </ns2:MainAddress>
+        </ns2:Individual>
+        <ns2:Inquiries>
+          <ns2:InquiryList>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-12-15T14:38:21.343</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>MonitoringDebtorOrCustomer</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-12-11T10:49:54.933</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-12-02T19:36:36.02</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-11-16T23:05:52.13</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-11-16T13:31:18.62</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-11-04T14:31:44.493</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-10-23T03:45:44.507</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-10-06T23:34:03.677</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-10-06T12:35:23.84</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-24T18:32:39.793</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-24T11:55:58.357</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-15T14:40:30.37</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+            <ns2:Inquiry>
+              <ns2:DateOfInquiry>2020-06-10T17:30:16.293</ns2:DateOfInquiry>
+              <ns2:Product>WS Creditinfo Report Plus</ns2:Product>
+              <ns2:Reason>ProvidingFacilities</ns2:Reason>
+              <ns2:Sector>Banks</ns2:Sector>
+            </ns2:Inquiry>
+          </ns2:InquiryList>
+          <ns2:Summary>
+            <ns2:NumberOfInquiriesLast12Months>13</ns2:NumberOfInquiriesLast12Months>
+            <ns2:NumberOfInquiriesLast1Month>2</ns2:NumberOfInquiriesLast1Month>
+            <ns2:NumberOfInquiriesLast24Months>13</ns2:NumberOfInquiriesLast24Months>
+            <ns2:NumberOfInquiriesLast3Months>9</ns2:NumberOfInquiriesLast3Months>
+            <ns2:NumberOfInquiriesLast6Months>9</ns2:NumberOfInquiriesLast6Months>
+          </ns2:Summary>
+        </ns2:Inquiries>
+        <ns2:Involvements>
+          <ns2:InvolvementList />
+          <ns2:Summary>
+            <ns2:NumberOfActiveInvolvements>0</ns2:NumberOfActiveInvolvements>
+            <ns2:NumberOfPastInvolvements>0</ns2:NumberOfPastInvolvements>
+            <ns2:TotalAmountOfActiveInvolvements>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalAmountOfActiveInvolvements>
+          </ns2:Summary>
+        </ns2:Involvements>
+        <ns2:OtherLiabilities>
+          <ns2:OtherLiabilityList />
+          <ns2:Summary>
+            <ns2:NumberOfClosedAgreements>0</ns2:NumberOfClosedAgreements>
+            <ns2:NumberOfOpenAgreements>0</ns2:NumberOfOpenAgreements>
+            <ns2:TotalMarketValue>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalMarketValue>
+            <ns2:TotalPrincipalArrears>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalPrincipalArrears>
+          </ns2:Summary>
+        </ns2:OtherLiabilities>
+        <ns2:Parameters>
+          <ns2:Consent>true</ns2:Consent>
+          <ns2:IDNumber>56317800</ns2:IDNumber>
+          <ns2:IDNumberType>PefindoId</ns2:IDNumberType>
+          <ns2:InquiryReason>ProvidingFacilities</ns2:InquiryReason>
+          <ns2:InquiryReasonText />
+          <ns2:ReportDate>2021-01-04T00:00:00</ns2:ReportDate>
+          <ns2:Sections>
+            <ns2:string>PEFINDOScore</ns2:string>
+          </ns2:Sections>
+          <ns2:SubjectType>Individual</ns2:SubjectType>
+        </ns2:Parameters>
+        <ns2:ReportInfo>
+          <ns2:Created>2021-01-04T17:19:33.336713+07:00</ns2:Created>
+          <ns2:ReferenceNumber>4328138-56317800</ns2:ReferenceNumber>
+          <ns2:ReportStatus>ReportGenerated</ns2:ReportStatus>
+          <ns2:RequestedBy>Johan Lai</ns2:RequestedBy>
+          <ns2:Version>553</ns2:Version>
+        </ns2:ReportInfo>
+        <ns2:Securities>
+          <ns2:SecurityList />
+          <ns2:Summary>
+            <ns2:NumberOfActiveSecurities>0</ns2:NumberOfActiveSecurities>
+            <ns2:NumberOfPastSecurities>0</ns2:NumberOfPastSecurities>
+            <ns2:TotalMarketValue>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalMarketValue>
+            <ns2:TotalPrincipalArrears>
+              <ns2:Currency>IDR</ns2:Currency>
+              <ns2:LocalValue>0</ns2:LocalValue>
+              <ns2:Value>0</ns2:Value>
+            </ns2:TotalPrincipalArrears>
+          </ns2:Summary>
+        </ns2:Securities>
+        <ns2:SubjectInfoHistory>
+          <ns2:AddressList />
+          <ns2:ContactList />
+          <ns2:GeneralList />
+          <ns2:IdentificationsList>
+            <ns2:Identifications>
+              <ns2:Item>CustomIdNumber1</ns2:Item>
+              <ns2:Subscriber>B02</ns2:Subscriber>
+              <ns2:ValidFrom>2018-12-30T00:00:00</ns2:ValidFrom>
+              <ns2:ValidTo>2020-09-30T00:00:00</ns2:ValidTo>
+              <ns2:Value>342IKL1</ns2:Value>
+            </ns2:Identifications>
+          </ns2:IdentificationsList>
+        </ns2:SubjectInfoHistory>
+      </ns2:GetCustomReportResult>
+    </ns2:pfGetCustomReportRs>
+  </ns1:ServiceBody>
+</ns0:ServiceEnvelope>

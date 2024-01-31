@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cb5="http://creditinfo.com/CB5" xmlns:smar="http://creditinfo.com/CB5/v5.53/SmartSearch">
+  <soapenv:Header />
+  <soapenv:Body>
+    <cb5:SmartSearchIndividual>
+      <cb5:query>
+        <smar:InquiryReason>ProvidingFacilities</smar:InquiryReason>
+        <smar:InquiryReasonText />
+        <smar:Parameters>
+          <smar:DateOfBirth>1982-10-05</smar:DateOfBirth>
+          <smar:FullName>Zetha Listya</smar:FullName>
+          <smar:IdNumbers>
+            <smar:IdNumberPairIndividual>
+              <smar:IdNumber>4104070510820007</smar:IdNumber>
+              <smar:IdNumberType>KTP</smar:IdNumberType>
+            </smar:IdNumberPairIndividual>
+          </smar:IdNumbers>
+        </smar:Parameters>
+      </cb5:query>
+    </cb5:SmartSearchIndividual>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cb5="http://creditinfo.com/CB5" xmlns:cus="http://creditinfo.com/CB5/v5.31/CustomReport">
+  <soapenv:Header />
+  <soapenv:Body>
+    <cb5:GetPdfReport>
+      <cb5:parameters>
+        <cus:Consent>true</cus:Consent>
+        <cus:IDNumber>71612266</cus:IDNumber>
+        <cus:IDNumberType>PefindoId</cus:IDNumberType>
+        <cus:InquiryReason>ProvidingFacilities</cus:InquiryReason>
+        <cus:InquiryReasonText />
+        <cus:LanguageCode>id-ID</cus:LanguageCode>
+        <cus:ReportName>PEFINDOScore</cus:ReportName>
+        <cus:SubjectType>Individual</cus:SubjectType>
+      </cb5:parameters>
+    </cb5:GetPdfReport>
+  </soapenv:Body>
+</soapenv:Envelope>
